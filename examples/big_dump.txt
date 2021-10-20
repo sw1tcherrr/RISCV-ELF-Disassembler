@@ -1,0 +1,3451 @@
+00010074:	<register_fini>	addi	a5, zero, 0
+00010078:	beq	a5, zero, 16
+0001007c:	lui	a0, 17825792
+00010080:	addi	a0, a0, -1720
+00010084:	jal	zero, 1312
+00010088:	jalr	zero, ra, 0
+0001008c:	<_start>	auipc	gp, 5242880
+00010090:	addi	gp, gp, -516
+00010094:	addi	a0, gp, 68
+00010098:	addi	a2, gp, 156
+0001009c:	sub	a2, a2, a0
+000100a0:	addi	a1, zero, 0
+000100a4:	jal	ra, 416
+000100a8:	auipc	a0, 0
+000100ac:	addi	a0, a0, 1276
+000100b0:	beq	a0, zero, 16
+000100b4:	auipc	a0, 1048576
+000100b8:	addi	a0, a0, -1900
+000100bc:	jal	ra, 1256
+000100c0:	jal	ra, 232
+000100c4:	lw	a0, sp, 0
+000100c8:	addi	a1, sp, 4
+000100cc:	addi	a2, zero, 0
+000100d0:	jal	ra, 116
+000100d4:	jal	zero, 164
+000100d8:	<__do_global_dtors_aux>	lbu	a4, gp, 88
+000100dc:	bne	a4, zero, 68
+000100e0:	addi	sp, sp, -16
+000100e4:	sw	sp, s0, 8
+000100e8:	addi	s0, a5, 0
+000100ec:	sw	sp, ra, 12
+000100f0:	addi	a5, zero, 0
+000100f4:	beq	a5, zero, 20
+000100f8:	lui	a0, 20971520
+000100fc:	addi	a0, a0, 1652
+00010100:	auipc	ra, 0
+00010104:	jalr	ra, zero, 0
+00010108:	addi	a5, zero, 1
+0001010c:	lw	ra, sp, 12
+00010110:	sb	gp, a5, 88
+00010114:	lw	s0, sp, 8
+00010118:	addi	sp, sp, 16
+0001011c:	jalr	zero, ra, 0
+00010120:	jalr	zero, ra, 0
+00010124:	<frame_dummy>	addi	a5, zero, 0
+00010128:	beq	a5, zero, 24
+0001012c:	lui	a0, 20971520
+00010130:	addi	a1, gp, 92
+00010134:	addi	a0, a0, 1652
+00010138:	auipc	t1, 0
+0001013c:	jalr	zero, zero, 0
+00010140:	jalr	zero, ra, 0
+00010144:	<main>	addi	sp, sp, -16
+00010148:	sw	sp, ra, 12
+0001014c:	sw	sp, s0, 8
+00010150:	addi	s0, sp, 16
+00010154:	lui	a5, 19922944
+00010158:	addi	a0, a5, 1632
+0001015c:	jal	ra, 656
+00010160:	addi	a5, zero, 0
+00010164:	addi	a0, a5, 0
+00010168:	lw	ra, sp, 12
+0001016c:	lw	s0, sp, 8
+00010170:	addi	sp, sp, 16
+00010174:	jalr	zero, ra, 0
+00010178:	<exit>	addi	sp, sp, -16
+0001017c:	addi	a1, zero, 0
+00010180:	sw	sp, s0, 8
+00010184:	sw	sp, ra, 12
+00010188:	addi	s0, a0, 0
+0001018c:	jal	ra, 760
+00010190:	lw	a0, gp, 48
+00010194:	lw	a5, a0, 60
+00010198:	beq	a5, zero, 8
+0001019c:	jalr	ra, a5, 0
+000101a0:	addi	a0, s0, 0
+000101a4:	jal	ra, 12688
+000101a8:	<__libc_init_array>	addi	sp, sp, -16
+000101ac:	sw	sp, s0, 8
+000101b0:	sw	sp, s2, 0
+000101b4:	lui	s0, 20971520
+000101b8:	lui	s2, 20971520
+000101bc:	addi	a5, s0, 1656
+000101c0:	addi	s2, s2, 1656
+000101c4:	sub	s2, s2, a5
+000101c8:	sw	sp, ra, 12
+000101cc:	sw	sp, s1, 4
+000101d0:	srai	s2, s2, sp
+000101d4:	beq	s2, zero, 32
+000101d8:	addi	s0, s0, 1656
+000101dc:	addi	s1, zero, 0
+000101e0:	lw	a5, s0, 0
+000101e4:	addi	s1, s1, 1
+000101e8:	addi	s0, s0, 4
+000101ec:	jalr	ra, a5, 0
+000101f0:	bne	s2, s1, -16
+000101f4:	lui	s0, 20971520
+000101f8:	lui	s2, 20971520
+000101fc:	addi	a5, s0, 1656
+00010200:	addi	s2, s2, 1664
+00010204:	sub	s2, s2, a5
+00010208:	srai	s2, s2, sp
+0001020c:	beq	s2, zero, 32
+00010210:	addi	s0, s0, 1656
+00010214:	addi	s1, zero, 0
+00010218:	lw	a5, s0, 0
+0001021c:	addi	s1, s1, 1
+00010220:	addi	s0, s0, 4
+00010224:	jalr	ra, a5, 0
+00010228:	bne	s2, s1, -16
+0001022c:	lw	ra, sp, 12
+00010230:	lw	s0, sp, 8
+00010234:	lw	s1, sp, 4
+00010238:	lw	s2, sp, 0
+0001023c:	addi	sp, sp, 16
+00010240:	jalr	zero, ra, 0
+00010244:	<memset>	addi	t1, zero, 15
+00010248:	addi	a4, a0, 0
+0001024c:	bgeu	t1, a2, 60
+00010250:	andi	a5, a4, 15
+00010254:	bne	a5, zero, 160
+00010258:	bne	a1, zero, 132
+0001025c:	andi	a3, a2, -16
+00010260:	andi	a2, a2, 15
+00010264:	add	a3, a3, a4
+00010268:	sw	a4, a1, 0
+0001026c:	sw	a4, a1, 4
+00010270:	sw	a4, a1, 8
+00010274:	sw	a4, a1, 12
+00010278:	addi	a4, a4, 16
+0001027c:	bltu	a4, a3, -20
+00010280:	bne	a2, zero, 8
+00010284:	jalr	zero, ra, 0
+00010288:	sub	a3, t1, a2
+0001028c:	slli	a3, a3, sp
+00010290:	auipc	t0, 0
+00010294:	add	a3, a3, t0
+00010298:	jalr	zero, a3, 12
+0001029c:	sb	a4, a1, 14
+000102a0:	sb	a4, a1, 13
+000102a4:	sb	a4, a1, 12
+000102a8:	sb	a4, a1, 11
+000102ac:	sb	a4, a1, 10
+000102b0:	sb	a4, a1, 9
+000102b4:	sb	a4, a1, 8
+000102b8:	sb	a4, a1, 7
+000102bc:	sb	a4, a1, 6
+000102c0:	sb	a4, a1, 5
+000102c4:	sb	a4, a1, 4
+000102c8:	sb	a4, a1, 3
+000102cc:	sb	a4, a1, 2
+000102d0:	sb	a4, a1, 1
+000102d4:	sb	a4, a1, 0
+000102d8:	jalr	zero, ra, 0
+000102dc:	andi	a1, a1, 255
+000102e0:	slli	a3, a1, s0
+000102e4:	or	a1, a1, a3
+000102e8:	slli	a3, a1, a6
+000102ec:	or	a1, a1, a3
+000102f0:	jal	zero, -148
+000102f4:	slli	a3, a5, sp
+000102f8:	auipc	t0, 0
+000102fc:	add	a3, a3, t0
+00010300:	addi	t0, ra, 0
+00010304:	jalr	ra, a3, -96
+00010308:	addi	ra, t0, 0
+0001030c:	addi	a5, a5, -16
+00010310:	sub	a4, a4, a5
+00010314:	add	a2, a2, a5
+00010318:	bgeu	t1, a2, -144
+0001031c:	jal	zero, -196
+00010320:	<_puts_r>	addi	sp, sp, -64
+00010324:	sw	sp, s0, 56
+00010328:	addi	s0, a0, 0
+0001032c:	addi	a0, a1, 0
+00010330:	sw	sp, s1, 52
+00010334:	sw	sp, ra, 60
+00010338:	addi	s1, a1, 0
+0001033c:	jal	ra, 188
+00010340:	lui	a5, 19922944
+00010344:	addi	a5, a5, 1648
+00010348:	sw	sp, a5, 40
+0001034c:	addi	a5, zero, 1
+00010350:	sw	sp, a5, 44
+00010354:	lw	a4, s0, 56
+00010358:	addi	a5, sp, 32
+0001035c:	addi	a3, a0, 1
+00010360:	sw	sp, a5, 20
+00010364:	addi	a5, zero, 2
+00010368:	sw	sp, s1, 32
+0001036c:	sw	sp, a0, 36
+00010370:	sw	sp, a3, 28
+00010374:	sw	sp, a5, 24
+00010378:	lw	a1, s0, 8
+0001037c:	beq	a4, zero, 92
+00010380:	lh	a5, a1, 12
+00010384:	slli	a4, a5, s2
+00010388:	blt	a4, zero, 36
+0001038c:	lw	a4, a1, 100
+00010390:	lui	a3, 2097152
+00010394:	or	a5, a5, a3
+00010398:	lui	a3, -2097152
+0001039c:	addi	a3, a3, -1
+000103a0:	and	a4, a4, a3
+000103a4:	sh	a1, a5, 12
+000103a8:	sw	a1, a4, 100
+000103ac:	addi	a2, sp, 20
+000103b0:	addi	a0, s0, 0
+000103b4:	jal	ra, 1520
+000103b8:	lw	ra, sp, 60
+000103bc:	lw	s0, sp, 56
+000103c0:	sltu	a0, zero, a0
+000103c4:	sub	a0, zero, a0
+000103c8:	lw	s1, sp, 52
+000103cc:	ori	a0, a0, 10
+000103d0:	addi	sp, sp, 64
+000103d4:	jalr	zero, ra, 0
+000103d8:	addi	a0, s0, 0
+000103dc:	sw	sp, a1, 12
+000103e0:	jal	ra, 1320
+000103e4:	lw	a1, sp, 12
+000103e8:	jal	zero, -104
+000103ec:	<puts>	addi	a1, a0, 0
+000103f0:	lw	a0, gp, 56
+000103f4:	jal	zero, -212
+000103f8:	<strlen>	andi	a5, a0, 3
+000103fc:	addi	a4, a0, 0
+00010400:	bne	a5, zero, 88
+00010404:	lui	a3, 547599941632
+00010408:	addi	a3, a3, -129
+0001040c:	addi	a1, zero, -1
+00010410:	lw	a2, a4, 0
+00010414:	addi	a4, a4, 4
+00010418:	and	a5, a2, a3
+0001041c:	add	a5, a5, a3
+00010420:	or	a5, a5, a2
+00010424:	or	a5, a5, a3
+00010428:	beq	a5, a1, -24
+0001042c:	lbu	a3, a4, -4
+00010430:	lbu	a2, a4, -3
+00010434:	lbu	a5, a4, -2
+00010438:	sub	a4, a4, a0
+0001043c:	beq	a3, zero, 64
+00010440:	beq	a2, zero, 52
+00010444:	sltu	a0, zero, a5
+00010448:	add	a0, a0, a4
+0001044c:	addi	a0, a0, -2
+00010450:	jalr	zero, ra, 0
+00010454:	beq	a3, zero, -80
+00010458:	lbu	a5, a4, 0
+0001045c:	addi	a4, a4, 1
+00010460:	andi	a3, a4, 3
+00010464:	bne	a5, zero, -16
+00010468:	sub	a4, a4, a0
+0001046c:	addi	a0, a4, -1
+00010470:	jalr	zero, ra, 0
+00010474:	addi	a0, a4, -3
+00010478:	jalr	zero, ra, 0
+0001047c:	addi	a0, a4, -4
+00010480:	jalr	zero, ra, 0
+00010484:	<__call_exitprocs>	addi	sp, sp, -48
+00010488:	sw	sp, s4, 24
+0001048c:	lw	s4, gp, 48
+00010490:	sw	sp, s2, 32
+00010494:	sw	sp, ra, 44
+00010498:	lw	s2, s4, 328
+0001049c:	sw	sp, s0, 40
+000104a0:	sw	sp, s1, 36
+000104a4:	sw	sp, s3, 28
+000104a8:	sw	sp, s5, 20
+000104ac:	sw	sp, s6, 16
+000104b0:	sw	sp, s7, 12
+000104b4:	sw	sp, s8, 8
+000104b8:	beq	s2, zero, 64
+000104bc:	addi	s6, a0, 0
+000104c0:	addi	s7, a1, 0
+000104c4:	addi	s5, zero, 1
+000104c8:	addi	s3, zero, -1
+000104cc:	lw	s1, s2, 4
+000104d0:	addi	s0, s1, -1
+000104d4:	blt	s0, zero, 36
+000104d8:	slli	s1, s1, sp
+000104dc:	add	s1, s2, s1
+000104e0:	beq	s7, zero, 72
+000104e4:	lw	a5, s1, 260
+000104e8:	beq	a5, s7, 64
+000104ec:	addi	s0, s0, -1
+000104f0:	addi	s1, s1, -4
+000104f4:	bne	s0, s3, -20
+000104f8:	lw	ra, sp, 44
+000104fc:	lw	s0, sp, 40
+00010500:	lw	s1, sp, 36
+00010504:	lw	s2, sp, 32
+00010508:	lw	s3, sp, 28
+0001050c:	lw	s4, sp, 24
+00010510:	lw	s5, sp, 20
+00010514:	lw	s6, sp, 16
+00010518:	lw	s7, sp, 12
+0001051c:	lw	s8, sp, 8
+00010520:	addi	sp, sp, 48
+00010524:	jalr	zero, ra, 0
+00010528:	lw	a5, s2, 4
+0001052c:	lw	a3, s1, 4
+00010530:	addi	a5, a5, -1
+00010534:	beq	a5, s0, 92
+00010538:	sw	s1, zero, 4
+0001053c:	beq	a3, zero, -80
+00010540:	lw	a5, s2, 392
+00010544:	sll	a4, s5, s0
+00010548:	lw	s8, s2, 4
+0001054c:	and	a5, a4, a5
+00010550:	bne	a5, zero, 36
+00010554:	jalr	ra, a3, 0
+00010558:	lw	a4, s2, 4
+0001055c:	lw	a5, s4, 328
+00010560:	bne	a4, s8, 8
+00010564:	beq	a5, s2, -120
+00010568:	beq	a5, zero, -112
+0001056c:	addi	s2, a5, 0
+00010570:	jal	zero, -164
+00010574:	lw	a5, s2, 396
+00010578:	lw	a1, s1, 132
+0001057c:	and	a4, a4, a5
+00010580:	bne	a4, zero, 24
+00010584:	addi	a0, s6, 0
+00010588:	jalr	ra, a3, 0
+0001058c:	jal	zero, -52
+00010590:	sw	s2, s0, 4
+00010594:	jal	zero, -88
+00010598:	addi	a0, a1, 0
+0001059c:	jalr	ra, a3, 0
+000105a0:	jal	zero, -72
+000105a4:	<atexit>	addi	a1, a0, 0
+000105a8:	addi	a3, zero, 0
+000105ac:	addi	a2, zero, 0
+000105b0:	addi	a0, zero, 0
+000105b4:	jal	zero, 7552
+000105b8:	<__fp_lock>	addi	a0, zero, 0
+000105bc:	jalr	zero, ra, 0
+000105c0:	<_cleanup_r>	lui	a1, 18874368
+000105c4:	addi	a1, a1, 1256
+000105c8:	jal	zero, 2328
+000105cc:	<__fp_unlock>	addi	a0, zero, 0
+000105d0:	jalr	zero, ra, 0
+000105d4:	<__sinit.part.0>	addi	sp, sp, -32
+000105d8:	lui	a5, 16777216
+000105dc:	sw	sp, ra, 28
+000105e0:	sw	sp, s0, 24
+000105e4:	sw	sp, s1, 20
+000105e8:	sw	sp, s2, 16
+000105ec:	sw	sp, s3, 12
+000105f0:	sw	sp, s4, 8
+000105f4:	sw	sp, s5, 4
+000105f8:	sw	sp, s6, 0
+000105fc:	lw	s0, a0, 4
+00010600:	addi	a5, a5, 1472
+00010604:	sw	a0, a5, 60
+00010608:	addi	a4, a0, 748
+0001060c:	addi	a5, zero, 3
+00010610:	sw	a0, a4, 744
+00010614:	sw	a0, a5, 740
+00010618:	sw	a0, zero, 736
+0001061c:	addi	a5, zero, 4
+00010620:	addi	s2, a0, 0
+00010624:	sw	s0, a5, 12
+00010628:	addi	a2, zero, 8
+0001062c:	addi	a1, zero, 0
+00010630:	sw	s0, zero, 100
+00010634:	sw	s0, zero, 0
+00010638:	sw	s0, zero, 4
+0001063c:	sw	s0, zero, 8
+00010640:	sw	s0, zero, 16
+00010644:	sw	s0, zero, 20
+00010648:	sw	s0, zero, 24
+0001064c:	addi	a0, s0, 92
+00010650:	jal	ra, -1036
+00010654:	lui	s6, 18874368
+00010658:	lw	s1, s2, 8
+0001065c:	lui	s5, 18874368
+00010660:	lui	s4, 18874368
+00010664:	lui	s3, 18874368
+00010668:	addi	s6, s6, 8
+0001066c:	addi	s5, s5, 108
+00010670:	addi	s4, s4, 244
+00010674:	addi	s3, s3, 348
+00010678:	lui	a5, 16777216
+0001067c:	sw	s0, s6, 32
+00010680:	sw	s0, s5, 36
+00010684:	sw	s0, s4, 40
+00010688:	sw	s0, s3, 44
+0001068c:	sw	s0, s0, 28
+00010690:	addi	a5, a5, 9
+00010694:	sw	s1, a5, 12
+00010698:	addi	a2, zero, 8
+0001069c:	addi	a1, zero, 0
+000106a0:	sw	s1, zero, 100
+000106a4:	sw	s1, zero, 0
+000106a8:	sw	s1, zero, 4
+000106ac:	sw	s1, zero, 8
+000106b0:	sw	s1, zero, 16
+000106b4:	sw	s1, zero, 20
+000106b8:	sw	s1, zero, 24
+000106bc:	addi	a0, s1, 92
+000106c0:	jal	ra, -1148
+000106c4:	lw	s0, s2, 12
+000106c8:	lui	a5, 33554432
+000106cc:	sw	s1, s6, 32
+000106d0:	sw	s1, s5, 36
+000106d4:	sw	s1, s4, 40
+000106d8:	sw	s1, s3, 44
+000106dc:	sw	s1, s1, 28
+000106e0:	addi	a5, a5, 18
+000106e4:	sw	s0, a5, 12
+000106e8:	sw	s0, zero, 100
+000106ec:	sw	s0, zero, 0
+000106f0:	sw	s0, zero, 4
+000106f4:	sw	s0, zero, 8
+000106f8:	sw	s0, zero, 16
+000106fc:	sw	s0, zero, 20
+00010700:	sw	s0, zero, 24
+00010704:	addi	a0, s0, 92
+00010708:	addi	a2, zero, 8
+0001070c:	addi	a1, zero, 0
+00010710:	jal	ra, -1228
+00010714:	lw	ra, sp, 28
+00010718:	sw	s0, s6, 32
+0001071c:	sw	s0, s5, 36
+00010720:	sw	s0, s4, 40
+00010724:	sw	s0, s3, 44
+00010728:	sw	s0, s0, 28
+0001072c:	lw	s0, sp, 24
+00010730:	addi	a5, zero, 1
+00010734:	sw	s2, a5, 56
+00010738:	lw	s1, sp, 20
+0001073c:	lw	s2, sp, 16
+00010740:	lw	s3, sp, 12
+00010744:	lw	s4, sp, 8
+00010748:	lw	s5, sp, 4
+0001074c:	lw	s6, sp, 0
+00010750:	addi	sp, sp, 32
+00010754:	jalr	zero, ra, 0
+00010758:	<__sfmoreglue>	addi	sp, sp, -16
+0001075c:	sw	sp, s1, 4
+00010760:	addi	a2, zero, 104
+00010764:	addi	s1, a1, -1
+00010768:	mul	s1, s1, a2
+0001076c:	sw	sp, s2, 0
+00010770:	addi	s2, a1, 0
+00010774:	sw	sp, s0, 8
+00010778:	sw	sp, ra, 12
+0001077c:	addi	a1, s1, 116
+00010780:	jal	ra, 2068
+00010784:	addi	s0, a0, 0
+00010788:	beq	a0, zero, 32
+0001078c:	addi	a0, a0, 12
+00010790:	sw	s0, zero, 0
+00010794:	sw	s0, s2, 4
+00010798:	sw	s0, a0, 8
+0001079c:	addi	a2, s1, 104
+000107a0:	addi	a1, zero, 0
+000107a4:	jal	ra, -1376
+000107a8:	lw	ra, sp, 12
+000107ac:	addi	a0, s0, 0
+000107b0:	lw	s0, sp, 8
+000107b4:	lw	s1, sp, 4
+000107b8:	lw	s2, sp, 0
+000107bc:	addi	sp, sp, 16
+000107c0:	jalr	zero, ra, 0
+000107c4:	<__sfp>	addi	sp, sp, -32
+000107c8:	sw	sp, s2, 16
+000107cc:	lw	s2, gp, 48
+000107d0:	sw	sp, s3, 12
+000107d4:	sw	sp, ra, 28
+000107d8:	lw	a5, s2, 56
+000107dc:	sw	sp, s0, 24
+000107e0:	sw	sp, s1, 20
+000107e4:	sw	sp, s4, 8
+000107e8:	addi	s3, a0, 0
+000107ec:	beq	a5, zero, 180
+000107f0:	addi	s2, s2, 736
+000107f4:	addi	s1, zero, -1
+000107f8:	addi	s4, zero, 4
+000107fc:	lw	a5, s2, 4
+00010800:	lw	s0, s2, 8
+00010804:	addi	a5, a5, -1
+00010808:	bge	a5, zero, 16
+0001080c:	jal	zero, 132
+00010810:	addi	s0, s0, 104
+00010814:	beq	a5, s1, 124
+00010818:	lh	a4, s0, 12
+0001081c:	addi	a5, a5, -1
+00010820:	bne	a4, zero, -16
+00010824:	lui	a5, -16777216
+00010828:	addi	a5, a5, 1
+0001082c:	sw	s0, zero, 100
+00010830:	sw	s0, zero, 0
+00010834:	sw	s0, zero, 4
+00010838:	sw	s0, zero, 8
+0001083c:	sw	s0, a5, 12
+00010840:	sw	s0, zero, 16
+00010844:	sw	s0, zero, 20
+00010848:	sw	s0, zero, 24
+0001084c:	addi	a2, zero, 8
+00010850:	addi	a1, zero, 0
+00010854:	addi	a0, s0, 92
+00010858:	jal	ra, -1556
+0001085c:	sw	s0, zero, 48
+00010860:	sw	s0, zero, 52
+00010864:	sw	s0, zero, 68
+00010868:	sw	s0, zero, 72
+0001086c:	lw	ra, sp, 28
+00010870:	addi	a0, s0, 0
+00010874:	lw	s0, sp, 24
+00010878:	lw	s1, sp, 20
+0001087c:	lw	s2, sp, 16
+00010880:	lw	s3, sp, 12
+00010884:	lw	s4, sp, 8
+00010888:	addi	sp, sp, 32
+0001088c:	jalr	zero, ra, 0
+00010890:	lw	s0, s2, 0
+00010894:	beq	s0, zero, 24
+00010898:	addi	s2, s0, 0
+0001089c:	jal	zero, -160
+000108a0:	addi	a0, s2, 0
+000108a4:	jal	ra, -720
+000108a8:	jal	zero, -184
+000108ac:	addi	a1, zero, 428
+000108b0:	addi	a0, s3, 0
+000108b4:	jal	ra, 1760
+000108b8:	addi	s0, a0, 0
+000108bc:	beq	a0, zero, 44
+000108c0:	addi	a0, a0, 12
+000108c4:	sw	s0, zero, 0
+000108c8:	sw	s0, s4, 4
+000108cc:	sw	s0, a0, 8
+000108d0:	addi	a2, zero, 416
+000108d4:	addi	a1, zero, 0
+000108d8:	jal	ra, -1684
+000108dc:	sw	s2, s0, 0
+000108e0:	addi	s2, s0, 0
+000108e4:	jal	zero, -232
+000108e8:	sw	s2, zero, 0
+000108ec:	addi	a5, zero, 12
+000108f0:	sw	s3, a5, 0
+000108f4:	jal	zero, -136
+000108f8:	<_cleanup>	lw	a0, gp, 48
+000108fc:	lui	a1, 18874368
+00010900:	addi	a1, a1, 1256
+00010904:	jal	zero, 1500
+00010908:	<__sinit>	lw	a5, a0, 56
+0001090c:	beq	a5, zero, 8
+00010910:	jalr	zero, ra, 0
+00010914:	jal	zero, -832
+00010918:	<__sfp_lock_acquire>	jalr	zero, ra, 0
+0001091c:	<__sfp_lock_release>	jalr	zero, ra, 0
+00010920:	<__sinit_lock_acquire>	jalr	zero, ra, 0
+00010924:	<__sinit_lock_release>	jalr	zero, ra, 0
+00010928:	<__fp_lock_all>	lw	a0, gp, 56
+0001092c:	lui	a1, 16777216
+00010930:	addi	a1, a1, 1464
+00010934:	jal	zero, 1288
+00010938:	<__fp_unlock_all>	lw	a0, gp, 56
+0001093c:	lui	a1, 16777216
+00010940:	addi	a1, a1, 1484
+00010944:	jal	zero, 1272
+00010948:	<__libc_fini_array>	addi	sp, sp, -16
+0001094c:	sw	sp, s0, 8
+00010950:	lui	a5, 20971520
+00010954:	lui	s0, 20971520
+00010958:	addi	s0, s0, 1664
+0001095c:	addi	a5, a5, 1668
+00010960:	sub	a5, a5, s0
+00010964:	sw	sp, s1, 4
+00010968:	sw	sp, ra, 12
+0001096c:	srai	s1, a5, sp
+00010970:	beq	s1, zero, 32
+00010974:	addi	a5, a5, -4
+00010978:	add	s0, a5, s0
+0001097c:	lw	a5, s0, 0
+00010980:	addi	s1, s1, -1
+00010984:	addi	s0, s0, -4
+00010988:	jalr	ra, a5, 0
+0001098c:	bne	s1, zero, -16
+00010990:	lw	ra, sp, 12
+00010994:	lw	s0, sp, 8
+00010998:	lw	s1, sp, 4
+0001099c:	addi	sp, sp, 16
+000109a0:	jalr	zero, ra, 0
+000109a4:	<__sfvwrite_r>	lw	a5, a2, 8
+000109a8:	beq	a5, zero, 784
+000109ac:	lhu	a5, a1, 12
+000109b0:	addi	sp, sp, -48
+000109b4:	sw	sp, s0, 40
+000109b8:	sw	sp, s4, 24
+000109bc:	sw	sp, s5, 20
+000109c0:	sw	sp, ra, 44
+000109c4:	sw	sp, s1, 36
+000109c8:	sw	sp, s2, 32
+000109cc:	sw	sp, s3, 28
+000109d0:	sw	sp, s6, 16
+000109d4:	sw	sp, s7, 12
+000109d8:	sw	sp, s8, 8
+000109dc:	sw	sp, s9, 4
+000109e0:	sw	sp, s10, 0
+000109e4:	andi	a4, a5, 8
+000109e8:	addi	s4, a2, 0
+000109ec:	addi	s5, a0, 0
+000109f0:	addi	s0, a1, 0
+000109f4:	beq	a4, zero, 140
+000109f8:	lw	a4, a1, 16
+000109fc:	beq	a4, zero, 132
+00010a00:	andi	a4, a5, 2
+00010a04:	lw	s1, s4, 0
+00010a08:	beq	a4, zero, 152
+00010a0c:	lw	a5, s0, 36
+00010a10:	lw	a1, s0, 28
+00010a14:	lui	s6, -549755813888
+00010a18:	addi	s3, zero, 0
+00010a1c:	addi	s2, zero, 0
+00010a20:	xori	s6, s6, -1024
+00010a24:	addi	a2, s3, 0
+00010a28:	addi	a0, s5, 0
+00010a2c:	beq	s2, zero, 68
+00010a30:	addi	a3, s2, 0
+00010a34:	bgeu	s6, s2, 8
+00010a38:	addi	a3, s6, 0
+00010a3c:	jalr	ra, a5, 0
+00010a40:	bge	zero, a0, 612
+00010a44:	lw	a5, s4, 8
+00010a48:	add	s3, s3, a0
+00010a4c:	sub	s2, s2, a0
+00010a50:	sub	a0, a5, a0
+00010a54:	sw	s4, a0, 8
+00010a58:	beq	a0, zero, 512
+00010a5c:	lw	a5, s0, 36
+00010a60:	lw	a1, s0, 28
+00010a64:	addi	a2, s3, 0
+00010a68:	addi	a0, s5, 0
+00010a6c:	bne	s2, zero, -60
+00010a70:	lw	s3, s1, 0
+00010a74:	lw	s2, s1, 4
+00010a78:	addi	s1, s1, 8
+00010a7c:	jal	zero, -88
+00010a80:	addi	a1, s0, 0
+00010a84:	addi	a0, s5, 0
+00010a88:	jal	ra, 5956
+00010a8c:	bne	a0, zero, 936
+00010a90:	lhu	a5, s0, 12
+00010a94:	lw	s1, s4, 0
+00010a98:	andi	a4, a5, 2
+00010a9c:	bne	a4, zero, -144
+00010aa0:	andi	a4, a5, 1
+00010aa4:	bne	a4, zero, 300
+00010aa8:	lw	s9, s0, 8
+00010aac:	lw	a0, s0, 0
+00010ab0:	lui	s6, -549755813888
+00010ab4:	xori	s7, s6, -2
+00010ab8:	addi	s8, zero, 0
+00010abc:	addi	s2, zero, 0
+00010ac0:	xori	s6, s6, -1
+00010ac4:	beq	s2, zero, 252
+00010ac8:	andi	a4, a5, 512
+00010acc:	beq	a4, zero, 592
+00010ad0:	addi	s10, s9, 0
+00010ad4:	bltu	s2, s9, 732
+00010ad8:	andi	a4, a5, 1152
+00010adc:	beq	a4, zero, 148
+00010ae0:	lw	s3, s0, 20
+00010ae4:	lw	a1, s0, 16
+00010ae8:	addi	a4, s2, 1
+00010aec:	slli	a3, s3, ra
+00010af0:	add	a3, a3, s3
+00010af4:	srli	s3, a3, t6
+00010af8:	sub	s10, a0, a1
+00010afc:	add	s3, s3, a3
+00010b00:	srai	s3, s3, ra
+00010b04:	add	a4, a4, s10
+00010b08:	addi	a2, s3, 0
+00010b0c:	bgeu	s3, a4, 12
+00010b10:	addi	s3, a4, 0
+00010b14:	addi	a2, a4, 0
+00010b18:	andi	a5, a5, 1024
+00010b1c:	beq	a5, zero, 716
+00010b20:	addi	a1, a2, 0
+00010b24:	addi	a0, s5, 0
+00010b28:	jal	ra, 1132
+00010b2c:	addi	s9, a0, 0
+00010b30:	beq	a0, zero, 756
+00010b34:	lw	a1, s0, 16
+00010b38:	addi	a2, s10, 0
+00010b3c:	jal	ra, 3256
+00010b40:	lhu	a5, s0, 12
+00010b44:	andi	a5, a5, -1153
+00010b48:	ori	a5, a5, 128
+00010b4c:	sh	s0, a5, 12
+00010b50:	add	a0, s9, s10
+00010b54:	sub	a5, s3, s10
+00010b58:	sw	s0, s9, 16
+00010b5c:	sw	s0, a0, 0
+00010b60:	sw	s0, s3, 20
+00010b64:	addi	s9, s2, 0
+00010b68:	sw	s0, a5, 8
+00010b6c:	addi	s10, s2, 0
+00010b70:	addi	a2, s10, 0
+00010b74:	addi	a1, s8, 0
+00010b78:	jal	ra, 3480
+00010b7c:	lw	a4, s0, 8
+00010b80:	lw	a5, s0, 0
+00010b84:	addi	s3, s2, 0
+00010b88:	sub	s9, a4, s9
+00010b8c:	add	a5, a5, s10
+00010b90:	sw	s0, s9, 8
+00010b94:	sw	s0, a5, 0
+00010b98:	addi	s2, zero, 0
+00010b9c:	lw	a2, s4, 8
+00010ba0:	add	s8, s8, s3
+00010ba4:	sub	s3, a2, s3
+00010ba8:	sw	s4, s3, 8
+00010bac:	beq	s3, zero, 172
+00010bb0:	lw	s9, s0, 8
+00010bb4:	lw	a0, s0, 0
+00010bb8:	lhu	a5, s0, 12
+00010bbc:	bne	s2, zero, -244
+00010bc0:	lw	s8, s1, 0
+00010bc4:	lw	s2, s1, 4
+00010bc8:	addi	s1, s1, 8
+00010bcc:	jal	zero, -264
+00010bd0:	addi	s6, zero, 0
+00010bd4:	addi	a0, zero, 0
+00010bd8:	addi	s8, zero, 0
+00010bdc:	addi	s3, zero, 0
+00010be0:	beq	s3, zero, 224
+00010be4:	beq	a0, zero, 236
+00010be8:	addi	a5, s6, 0
+00010bec:	addi	s7, s3, 0
+00010bf0:	bgeu	a5, s3, 8
+00010bf4:	addi	s7, a5, 0
+00010bf8:	lw	a0, s0, 0
+00010bfc:	lw	a5, s0, 16
+00010c00:	lw	a3, s0, 20
+00010c04:	bgeu	a5, a0, 16
+00010c08:	lw	s2, s0, 8
+00010c0c:	add	s2, a3, s2
+00010c10:	blt	s2, s7, 224
+00010c14:	blt	s7, a3, 424
+00010c18:	lw	a5, s0, 36
+00010c1c:	lw	a1, s0, 28
+00010c20:	addi	a2, s8, 0
+00010c24:	addi	a0, s5, 0
+00010c28:	jalr	ra, a5, 0
+00010c2c:	addi	s2, a0, 0
+00010c30:	bge	zero, a0, 116
+00010c34:	sub	s6, s6, s2
+00010c38:	addi	a0, zero, 1
+00010c3c:	beq	s6, zero, 88
+00010c40:	lw	a2, s4, 8
+00010c44:	add	s8, s8, s2
+00010c48:	sub	s3, s3, s2
+00010c4c:	sub	s2, a2, s2
+00010c50:	sw	s4, s2, 8
+00010c54:	bne	s2, zero, -116
+00010c58:	addi	a0, zero, 0
+00010c5c:	lw	ra, sp, 44
+00010c60:	lw	s0, sp, 40
+00010c64:	lw	s1, sp, 36
+00010c68:	lw	s2, sp, 32
+00010c6c:	lw	s3, sp, 28
+00010c70:	lw	s4, sp, 24
+00010c74:	lw	s5, sp, 20
+00010c78:	lw	s6, sp, 16
+00010c7c:	lw	s7, sp, 12
+00010c80:	lw	s8, sp, 8
+00010c84:	lw	s9, sp, 4
+00010c88:	lw	s10, sp, 0
+00010c8c:	addi	sp, sp, 48
+00010c90:	jalr	zero, ra, 0
+00010c94:	addi	a1, s0, 0
+00010c98:	addi	a0, s5, 0
+00010c9c:	jal	ra, 7060
+00010ca0:	beq	a0, zero, -96
+00010ca4:	lh	a5, s0, 12
+00010ca8:	ori	a5, a5, 64
+00010cac:	sh	s0, a5, 12
+00010cb0:	addi	a0, zero, -1
+00010cb4:	jal	zero, -88
+00010cb8:	addi	a0, zero, 0
+00010cbc:	jalr	zero, ra, 0
+00010cc0:	lw	s3, s1, 4
+00010cc4:	lw	s8, s1, 0
+00010cc8:	addi	s1, s1, 8
+00010ccc:	beq	s3, zero, -12
+00010cd0:	addi	a2, s3, 0
+00010cd4:	addi	a1, zero, 10
+00010cd8:	addi	a0, s8, 0
+00010cdc:	jal	ra, 2640
+00010ce0:	beq	a0, zero, 312
+00010ce4:	addi	a0, a0, 1
+00010ce8:	sub	s6, a0, s8
+00010cec:	jal	zero, -260
+00010cf0:	addi	a1, s8, 0
+00010cf4:	addi	a2, s2, 0
+00010cf8:	jal	ra, 3096
+00010cfc:	lw	a5, s0, 0
+00010d00:	addi	a1, s0, 0
+00010d04:	addi	a0, s5, 0
+00010d08:	add	a5, a5, s2
+00010d0c:	sw	s0, a5, 0
+00010d10:	jal	ra, 6944
+00010d14:	beq	a0, zero, -224
+00010d18:	jal	zero, -116
+00010d1c:	lw	a5, s0, 16
+00010d20:	bltu	a5, a0, 68
+00010d24:	lw	a5, s0, 20
+00010d28:	bltu	s2, a5, 60
+00010d2c:	addi	a3, s2, 0
+00010d30:	bgeu	s7, s2, 8
+00010d34:	addi	a3, s6, 0
+00010d38:	div	a3, a3, a5
+00010d3c:	lw	a4, s0, 36
+00010d40:	lw	a1, s0, 28
+00010d44:	addi	a2, s8, 0
+00010d48:	addi	a0, s5, 0
+00010d4c:	mul	a3, a3, a5
+00010d50:	jalr	ra, a4, 0
+00010d54:	addi	s3, a0, 0
+00010d58:	bge	zero, a0, -180
+00010d5c:	sub	s2, s2, s3
+00010d60:	jal	zero, -452
+00010d64:	addi	s3, s9, 0
+00010d68:	bgeu	s2, s9, 8
+00010d6c:	addi	s3, s2, 0
+00010d70:	addi	a2, s3, 0
+00010d74:	addi	a1, s8, 0
+00010d78:	jal	ra, 2968
+00010d7c:	lw	a5, s0, 8
+00010d80:	lw	a4, s0, 0
+00010d84:	sub	a5, a5, s3
+00010d88:	add	a4, a4, s3
+00010d8c:	sw	s0, a5, 8
+00010d90:	sw	s0, a4, 0
+00010d94:	bne	a5, zero, -56
+00010d98:	addi	a1, s0, 0
+00010d9c:	addi	a0, s5, 0
+00010da0:	jal	ra, 6800
+00010da4:	bne	a0, zero, -256
+00010da8:	sub	s2, s2, s3
+00010dac:	jal	zero, -528
+00010db0:	addi	s9, s2, 0
+00010db4:	addi	s10, s2, 0
+00010db8:	jal	zero, -584
+00010dbc:	addi	a2, s7, 0
+00010dc0:	addi	a1, s8, 0
+00010dc4:	jal	ra, 2892
+00010dc8:	lw	a4, s0, 8
+00010dcc:	lw	a5, s0, 0
+00010dd0:	addi	s2, s7, 0
+00010dd4:	sub	a4, a4, s7
+00010dd8:	add	a5, a5, s7
+00010ddc:	sw	s0, a4, 8
+00010de0:	sw	s0, a5, 0
+00010de4:	jal	zero, -432
+00010de8:	addi	a0, s5, 0
+00010dec:	jal	ra, 3148
+00010df0:	addi	s9, a0, 0
+00010df4:	bne	a0, zero, -676
+00010df8:	lw	a1, s0, 16
+00010dfc:	addi	a0, s5, 0
+00010e00:	jal	ra, 7228
+00010e04:	lh	a5, s0, 12
+00010e08:	addi	a4, zero, 12
+00010e0c:	sw	s5, a4, 0
+00010e10:	andi	a5, a5, -129
+00010e14:	jal	zero, -364
+00010e18:	addi	a5, s3, 1
+00010e1c:	addi	s6, a5, 0
+00010e20:	jal	zero, -564
+00010e24:	addi	a4, zero, 12
+00010e28:	lh	a5, s0, 12
+00010e2c:	sw	s5, a4, 0
+00010e30:	jal	zero, -392
+00010e34:	addi	a0, zero, -1
+00010e38:	jal	zero, -476
+00010e3c:	<_fwalk>	addi	sp, sp, -32
+00010e40:	sw	sp, s2, 16
+00010e44:	sw	sp, s3, 12
+00010e48:	sw	sp, s4, 8
+00010e4c:	sw	sp, s5, 4
+00010e50:	sw	sp, s6, 0
+00010e54:	sw	sp, ra, 28
+00010e58:	sw	sp, s0, 24
+00010e5c:	sw	sp, s1, 20
+00010e60:	addi	s6, a1, 0
+00010e64:	addi	s5, a0, 736
+00010e68:	addi	s4, zero, 0
+00010e6c:	addi	s3, zero, 1
+00010e70:	addi	s2, zero, -1
+00010e74:	lw	s1, s5, 4
+00010e78:	lw	s0, s5, 8
+00010e7c:	addi	s1, s1, -1
+00010e80:	blt	s1, zero, 44
+00010e84:	lhu	a5, s0, 12
+00010e88:	addi	s1, s1, -1
+00010e8c:	bgeu	s3, a5, 24
+00010e90:	lh	a5, s0, 14
+00010e94:	addi	a0, s0, 0
+00010e98:	beq	a5, s2, 12
+00010e9c:	jalr	ra, s6, 0
+00010ea0:	or	s4, s4, a0
+00010ea4:	addi	s0, s0, 104
+00010ea8:	bne	s1, s2, -36
+00010eac:	lw	s5, s5, 0
+00010eb0:	bne	s5, zero, -60
+00010eb4:	lw	ra, sp, 28
+00010eb8:	lw	s0, sp, 24
+00010ebc:	lw	s1, sp, 20
+00010ec0:	lw	s2, sp, 16
+00010ec4:	lw	s3, sp, 12
+00010ec8:	lw	s5, sp, 4
+00010ecc:	lw	s6, sp, 0
+00010ed0:	addi	a0, s4, 0
+00010ed4:	lw	s4, sp, 8
+00010ed8:	addi	sp, sp, 32
+00010edc:	jalr	zero, ra, 0
+00010ee0:	<_fwalk_reent>	addi	sp, sp, -48
+00010ee4:	sw	sp, s2, 32
+00010ee8:	sw	sp, s3, 28
+00010eec:	sw	sp, s4, 24
+00010ef0:	sw	sp, s5, 20
+00010ef4:	sw	sp, s6, 16
+00010ef8:	sw	sp, s7, 12
+00010efc:	sw	sp, ra, 44
+00010f00:	sw	sp, s0, 40
+00010f04:	sw	sp, s1, 36
+00010f08:	addi	s5, a0, 0
+00010f0c:	addi	s7, a1, 0
+00010f10:	addi	s6, a0, 736
+00010f14:	addi	s4, zero, 0
+00010f18:	addi	s3, zero, 1
+00010f1c:	addi	s2, zero, -1
+00010f20:	lw	s1, s6, 4
+00010f24:	lw	s0, s6, 8
+00010f28:	addi	s1, s1, -1
+00010f2c:	blt	s1, zero, 48
+00010f30:	lhu	a5, s0, 12
+00010f34:	addi	s1, s1, -1
+00010f38:	bgeu	s3, a5, 28
+00010f3c:	lh	a5, s0, 14
+00010f40:	addi	a1, s0, 0
+00010f44:	addi	a0, s5, 0
+00010f48:	beq	a5, s2, 12
+00010f4c:	jalr	ra, s7, 0
+00010f50:	or	s4, s4, a0
+00010f54:	addi	s0, s0, 104
+00010f58:	bne	s1, s2, -40
+00010f5c:	lw	s6, s6, 0
+00010f60:	bne	s6, zero, -64
+00010f64:	lw	ra, sp, 44
+00010f68:	lw	s0, sp, 40
+00010f6c:	lw	s1, sp, 36
+00010f70:	lw	s2, sp, 32
+00010f74:	lw	s3, sp, 28
+00010f78:	lw	s5, sp, 20
+00010f7c:	lw	s6, sp, 16
+00010f80:	lw	s7, sp, 12
+00010f84:	addi	a0, s4, 0
+00010f88:	lw	s4, sp, 24
+00010f8c:	addi	sp, sp, 48
+00010f90:	jalr	zero, ra, 0
+00010f94:	<_malloc_r>	addi	sp, sp, -48
+00010f98:	sw	sp, s3, 28
+00010f9c:	sw	sp, ra, 44
+00010fa0:	sw	sp, s0, 40
+00010fa4:	sw	sp, s1, 36
+00010fa8:	sw	sp, s2, 32
+00010fac:	sw	sp, s4, 24
+00010fb0:	sw	sp, s5, 20
+00010fb4:	sw	sp, s6, 16
+00010fb8:	sw	sp, s7, 12
+00010fbc:	sw	sp, s8, 8
+00010fc0:	sw	sp, s9, 4
+00010fc4:	addi	a5, a1, 11
+00010fc8:	addi	a4, zero, 22
+00010fcc:	addi	s3, a0, 0
+00010fd0:	bltu	a4, a5, 104
+00010fd4:	addi	a5, zero, 16
+00010fd8:	bltu	a5, a1, 484
+00010fdc:	jal	ra, 2644
+00010fe0:	addi	s1, zero, 16
+00010fe4:	addi	a5, zero, 24
+00010fe8:	addi	a2, zero, 2
+00010fec:	addi	s2, gp, -984
+00010ff0:	add	a5, s2, a5
+00010ff4:	lw	s0, a5, 4
+00010ff8:	addi	a4, a5, -8
+00010ffc:	beq	s0, a4, 528
+00011000:	lw	a5, s0, 4
+00011004:	lw	a3, s0, 12
+00011008:	lw	a2, s0, 8
+0001100c:	andi	a5, a5, -4
+00011010:	add	a5, s0, a5
+00011014:	lw	a4, a5, 4
+00011018:	sw	a2, a3, 12
+0001101c:	sw	a3, a2, 8
+00011020:	ori	a4, a4, 1
+00011024:	addi	a0, s3, 0
+00011028:	sw	a5, a4, 4
+0001102c:	jal	ra, 2568
+00011030:	addi	a0, s0, 8
+00011034:	jal	zero, 404
+00011038:	andi	s1, a5, -8
+0001103c:	blt	a5, zero, 384
+00011040:	bltu	s1, a1, 380
+00011044:	jal	ra, 2540
+00011048:	addi	a5, zero, 503
+0001104c:	bgeu	a5, s1, 1108
+00011050:	srli	a5, s1, s1
+00011054:	beq	a5, zero, 424
+00011058:	addi	a4, zero, 4
+0001105c:	bltu	a4, a5, 960
+00011060:	srli	a5, s1, t1
+00011064:	addi	a2, a5, 57
+00011068:	addi	a0, a5, 56
+0001106c:	slli	a3, a2, gp
+00011070:	addi	s2, gp, -984
+00011074:	add	a3, s2, a3
+00011078:	lw	s0, a3, 4
+0001107c:	addi	a3, a3, -8
+00011080:	beq	a3, s0, 44
+00011084:	addi	a1, zero, 15
+00011088:	jal	zero, 16
+0001108c:	bge	a4, zero, 804
+00011090:	lw	s0, s0, 12
+00011094:	beq	a3, s0, 24
+00011098:	lw	a5, s0, 4
+0001109c:	andi	a5, a5, -4
+000110a0:	sub	a4, a5, s1
+000110a4:	bge	a1, a4, -24
+000110a8:	addi	a2, a0, 0
+000110ac:	lw	s0, s2, 16
+000110b0:	addi	a7, s2, 8
+000110b4:	beq	s0, a7, 368
+000110b8:	lw	a0, s0, 4
+000110bc:	addi	a3, zero, 15
+000110c0:	andi	a0, a0, -4
+000110c4:	sub	a5, a0, s1
+000110c8:	blt	a3, a5, 1028
+000110cc:	sw	s2, a7, 20
+000110d0:	sw	s2, a7, 16
+000110d4:	bge	a5, zero, 984
+000110d8:	addi	a5, zero, 511
+000110dc:	bltu	a5, a0, 736
+000110e0:	andi	a5, a0, -8
+000110e4:	addi	a5, a5, 8
+000110e8:	lw	a1, s2, 4
+000110ec:	add	a5, s2, a5
+000110f0:	lw	a3, a5, 0
+000110f4:	srli	a0, a0, t0
+000110f8:	addi	a4, zero, 1
+000110fc:	sll	a4, a4, a0
+00011100:	or	a4, a4, a1
+00011104:	addi	a1, a5, -8
+00011108:	sw	s0, a1, 12
+0001110c:	sw	s0, a3, 8
+00011110:	sw	s2, a4, 4
+00011114:	sw	a5, s0, 0
+00011118:	sw	a3, s0, 12
+0001111c:	srai	a5, a2, sp
+00011120:	addi	a1, zero, 1
+00011124:	sll	a1, a1, a5
+00011128:	bltu	a4, a1, 272
+0001112c:	and	a5, a1, a4
+00011130:	bne	a5, zero, 40
+00011134:	slli	a1, a1, ra
+00011138:	andi	a2, a2, -4
+0001113c:	and	a5, a1, a4
+00011140:	addi	a2, a2, 4
+00011144:	bne	a5, zero, 20
+00011148:	slli	a1, a1, ra
+0001114c:	and	a5, a1, a4
+00011150:	addi	a2, a2, 4
+00011154:	beq	a5, zero, -12
+00011158:	addi	a6, zero, 15
+0001115c:	slli	t1, a2, gp
+00011160:	add	t1, s2, t1
+00011164:	addi	a0, t1, 0
+00011168:	lw	a5, a0, 12
+0001116c:	addi	t3, a2, 0
+00011170:	beq	a0, a5, 720
+00011174:	lw	a4, a5, 4
+00011178:	addi	s0, a5, 0
+0001117c:	lw	a5, a5, 12
+00011180:	andi	a4, a4, -4
+00011184:	sub	a3, a4, s1
+00011188:	blt	a6, a3, 720
+0001118c:	blt	a3, zero, -28
+00011190:	add	a4, s0, a4
+00011194:	lw	a3, a4, 4
+00011198:	lw	a2, s0, 8
+0001119c:	addi	a0, s3, 0
+000111a0:	ori	a3, a3, 1
+000111a4:	sw	a4, a3, 4
+000111a8:	sw	a2, a5, 12
+000111ac:	sw	a5, a2, 8
+000111b0:	jal	ra, 2180
+000111b4:	addi	a0, s0, 8
+000111b8:	jal	zero, 16
+000111bc:	addi	a5, zero, 12
+000111c0:	sw	s3, a5, 0
+000111c4:	addi	a0, zero, 0
+000111c8:	lw	ra, sp, 44
+000111cc:	lw	s0, sp, 40
+000111d0:	lw	s1, sp, 36
+000111d4:	lw	s2, sp, 32
+000111d8:	lw	s3, sp, 28
+000111dc:	lw	s4, sp, 24
+000111e0:	lw	s5, sp, 20
+000111e4:	lw	s6, sp, 16
+000111e8:	lw	s7, sp, 12
+000111ec:	lw	s8, sp, 8
+000111f0:	lw	s9, sp, 4
+000111f4:	addi	sp, sp, 48
+000111f8:	jalr	zero, ra, 0
+000111fc:	addi	a3, zero, 512
+00011200:	addi	a2, zero, 64
+00011204:	addi	a0, zero, 63
+00011208:	jal	zero, -408
+0001120c:	lw	s0, a5, 12
+00011210:	addi	a2, a2, 2
+00011214:	bne	a5, s0, -532
+00011218:	lw	s0, s2, 16
+0001121c:	addi	a7, s2, 8
+00011220:	bne	s0, a7, -360
+00011224:	lw	a4, s2, 4
+00011228:	srai	a5, a2, sp
+0001122c:	addi	a1, zero, 1
+00011230:	sll	a1, a1, a5
+00011234:	bgeu	a4, a1, -264
+00011238:	lw	s0, s2, 8
+0001123c:	lw	s5, s0, 4
+00011240:	andi	s6, s5, -4
+00011244:	bltu	s6, s1, 16
+00011248:	sub	a5, s6, s1
+0001124c:	addi	a4, zero, 15
+00011250:	blt	a4, a5, 312
+00011254:	lw	s5, gp, 76
+00011258:	lw	a4, gp, 60
+0001125c:	addi	a5, zero, -1
+00011260:	add	s4, s0, s6
+00011264:	add	s5, s1, s5
+00011268:	beq	a4, a5, 840
+0001126c:	lui	a5, 1048576
+00011270:	addi	a5, a5, 15
+00011274:	add	s5, s5, a5
+00011278:	lui	a5, -1048576
+0001127c:	and	s5, s5, a5
+00011280:	addi	a1, s5, 0
+00011284:	addi	a0, s3, 0
+00011288:	jal	ra, 3364
+0001128c:	addi	a5, zero, -1
+00011290:	addi	s7, a0, 0
+00011294:	beq	a0, a5, 652
+00011298:	bltu	a0, s4, 644
+0001129c:	addi	s8, gp, 116
+000112a0:	lw	a1, s8, 0
+000112a4:	add	a1, s5, a1
+000112a8:	sw	s8, a1, 0
+000112ac:	addi	a5, a1, 0
+000112b0:	beq	s4, a0, 924
+000112b4:	lw	a3, gp, 60
+000112b8:	addi	a4, zero, -1
+000112bc:	beq	a3, a4, 940
+000112c0:	sub	s4, s7, s4
+000112c4:	add	a5, s4, a5
+000112c8:	sw	s8, a5, 0
+000112cc:	andi	s9, s7, 7
+000112d0:	beq	s9, zero, 772
+000112d4:	lui	a5, 1048576
+000112d8:	sub	s7, s7, s9
+000112dc:	addi	a1, a5, 8
+000112e0:	addi	s7, s7, 8
+000112e4:	sub	a1, a1, s9
+000112e8:	add	s5, s7, s5
+000112ec:	addi	a5, a5, -1
+000112f0:	sub	a1, a1, s5
+000112f4:	and	s4, a1, a5
+000112f8:	addi	a1, s4, 0
+000112fc:	addi	a0, s3, 0
+00011300:	jal	ra, 3244
+00011304:	addi	a5, zero, -1
+00011308:	beq	a0, a5, 948
+0001130c:	sub	a0, a0, s7
+00011310:	add	s5, a0, s4
+00011314:	lw	a1, s8, 0
+00011318:	sw	s2, s7, 8
+0001131c:	ori	s5, s5, 1
+00011320:	add	a1, s4, a1
+00011324:	sw	s8, a1, 0
+00011328:	sw	s7, s5, 4
+0001132c:	beq	s0, s2, 836
+00011330:	addi	a3, zero, 15
+00011334:	bgeu	a3, s6, 836
+00011338:	lw	a4, s0, 4
+0001133c:	addi	a5, s6, -12
+00011340:	andi	a5, a5, -8
+00011344:	andi	a4, a4, 1
+00011348:	or	a4, a4, a5
+0001134c:	sw	s0, a4, 4
+00011350:	addi	a2, zero, 5
+00011354:	add	a4, s0, a5
+00011358:	sw	a4, a2, 4
+0001135c:	sw	a4, a2, 8
+00011360:	bltu	a3, a5, 880
+00011364:	lw	s5, s7, 4
+00011368:	addi	s0, s7, 0
+0001136c:	lw	a4, gp, 72
+00011370:	bgeu	a4, a1, 8
+00011374:	sw	gp, a1, 72
+00011378:	lw	a4, gp, 68
+0001137c:	bgeu	a4, a1, 428
+00011380:	sw	gp, a1, 68
+00011384:	jal	zero, 420
+00011388:	ori	a4, s1, 1
+0001138c:	sw	s0, a4, 4
+00011390:	add	s1, s0, s1
+00011394:	sw	s2, s1, 8
+00011398:	ori	a5, a5, 1
+0001139c:	addi	a0, s3, 0
+000113a0:	sw	s1, a5, 4
+000113a4:	jal	ra, 1680
+000113a8:	addi	a0, s0, 8
+000113ac:	jal	zero, -484
+000113b0:	lw	a3, s0, 12
+000113b4:	lw	a2, s0, 8
+000113b8:	jal	zero, -936
+000113bc:	srli	a5, a0, s1
+000113c0:	addi	a4, zero, 4
+000113c4:	bgeu	a4, a5, 324
+000113c8:	addi	a4, zero, 20
+000113cc:	bltu	a4, a5, 564
+000113d0:	addi	a3, a5, 92
+000113d4:	addi	a1, a5, 91
+000113d8:	slli	a3, a3, gp
+000113dc:	add	a3, s2, a3
+000113e0:	lw	a5, a3, 0
+000113e4:	addi	a3, a3, -8
+000113e8:	beq	a3, a5, 464
+000113ec:	lw	a4, a5, 4
+000113f0:	andi	a4, a4, -4
+000113f4:	bgeu	a0, a4, 12
+000113f8:	lw	a5, a5, 8
+000113fc:	bne	a3, a5, -16
+00011400:	lw	a3, a5, 12
+00011404:	lw	a4, s2, 4
+00011408:	sw	s0, a3, 12
+0001140c:	sw	s0, a5, 8
+00011410:	sw	a3, s0, 8
+00011414:	sw	a5, s0, 12
+00011418:	jal	zero, -764
+0001141c:	addi	a4, zero, 20
+00011420:	bgeu	a4, a5, 300
+00011424:	addi	a4, zero, 84
+00011428:	bltu	a4, a5, 500
+0001142c:	srli	a5, s1, a2
+00011430:	addi	a2, a5, 111
+00011434:	addi	a0, a5, 110
+00011438:	slli	a3, a2, gp
+0001143c:	jal	zero, -972
+00011440:	addi	t3, t3, 1
+00011444:	andi	a5, t3, 3
+00011448:	addi	a0, a0, 8
+0001144c:	beq	a5, zero, 284
+00011450:	lw	a5, a0, 12
+00011454:	jal	zero, -740
+00011458:	lw	a2, s0, 8
+0001145c:	ori	a1, s1, 1
+00011460:	sw	s0, a1, 4
+00011464:	sw	a2, a5, 12
+00011468:	sw	a5, a2, 8
+0001146c:	add	s1, s0, s1
+00011470:	sw	s2, s1, 20
+00011474:	sw	s2, s1, 16
+00011478:	ori	a5, a3, 1
+0001147c:	sw	s1, a7, 12
+00011480:	sw	s1, a7, 8
+00011484:	sw	s1, a5, 4
+00011488:	add	a4, s0, a4
+0001148c:	addi	a0, s3, 0
+00011490:	sw	a4, a3, 0
+00011494:	jal	ra, 1440
+00011498:	addi	a0, s0, 8
+0001149c:	jal	zero, -724
+000114a0:	srli	a2, s1, gp
+000114a4:	addi	a5, s1, 8
+000114a8:	jal	zero, -1212
+000114ac:	add	a4, s0, a0
+000114b0:	lw	a5, a4, 4
+000114b4:	addi	a0, s3, 0
+000114b8:	ori	a5, a5, 1
+000114bc:	sw	a4, a5, 4
+000114c0:	jal	ra, 1396
+000114c4:	addi	a0, s0, 8
+000114c8:	jal	zero, -768
+000114cc:	ori	a4, s1, 1
+000114d0:	sw	s0, a4, 4
+000114d4:	add	s1, s0, s1
+000114d8:	sw	s2, s1, 20
+000114dc:	sw	s2, s1, 16
+000114e0:	ori	a4, a5, 1
+000114e4:	sw	s1, a7, 12
+000114e8:	sw	s1, a7, 8
+000114ec:	sw	s1, a4, 4
+000114f0:	add	a0, s0, a0
+000114f4:	sw	a0, a5, 0
+000114f8:	addi	a0, s3, 0
+000114fc:	jal	ra, 1336
+00011500:	addi	a0, s0, 8
+00011504:	jal	zero, -828
+00011508:	srli	a5, a0, t1
+0001150c:	addi	a3, a5, 57
+00011510:	addi	a1, a5, 56
+00011514:	slli	a3, a3, gp
+00011518:	jal	zero, -316
+0001151c:	beq	s0, s2, 284
+00011520:	lw	s0, s2, 8
+00011524:	lw	s5, s0, 4
+00011528:	andi	s5, s5, -4
+0001152c:	sub	a5, s5, s1
+00011530:	bltu	s5, s1, 12
+00011534:	addi	a4, zero, 15
+00011538:	blt	a4, a5, -432
+0001153c:	addi	a0, s3, 0
+00011540:	jal	ra, 1268
+00011544:	addi	a0, zero, 0
+00011548:	jal	zero, -896
+0001154c:	addi	a2, a5, 92
+00011550:	addi	a0, a5, 91
+00011554:	slli	a3, a2, gp
+00011558:	jal	zero, -1256
+0001155c:	lw	a5, t1, 8
+00011560:	addi	a2, a2, -1
+00011564:	bne	a5, t1, 448
+00011568:	andi	a5, a2, 3
+0001156c:	addi	t1, t1, -8
+00011570:	bne	a5, zero, -20
+00011574:	lw	a4, s2, 4
+00011578:	xori	a5, a1, -1
+0001157c:	and	a5, a5, a4
+00011580:	sw	s2, a5, 4
+00011584:	slli	a1, a1, ra
+00011588:	bltu	a5, a1, -848
+0001158c:	beq	a1, zero, -852
+00011590:	and	a4, a1, a5
+00011594:	bne	a4, zero, 20
+00011598:	slli	a1, a1, ra
+0001159c:	and	a4, a1, a5
+000115a0:	addi	t3, t3, 4
+000115a4:	beq	a4, zero, -12
+000115a8:	addi	a2, t3, 0
+000115ac:	jal	zero, -1104
+000115b0:	addi	s5, s5, 16
+000115b4:	jal	zero, -820
+000115b8:	lw	a0, s2, 4
+000115bc:	srai	a1, a1, sp
+000115c0:	addi	a4, zero, 1
+000115c4:	sll	a4, a4, a1
+000115c8:	or	a4, a4, a0
+000115cc:	sw	s2, a4, 4
+000115d0:	jal	zero, -456
+000115d4:	add	a1, s7, s5
+000115d8:	sub	a1, zero, a1
+000115dc:	slli	a1, a1, s4
+000115e0:	srli	s4, a1, s4
+000115e4:	addi	a1, s4, 0
+000115e8:	addi	a0, s3, 0
+000115ec:	jal	ra, 2496
+000115f0:	addi	a5, zero, -1
+000115f4:	bne	a0, a5, -744
+000115f8:	addi	s4, zero, 0
+000115fc:	jal	zero, -744
+00011600:	addi	a4, zero, 84
+00011604:	bltu	a4, a5, 128
+00011608:	srli	a5, a0, a2
+0001160c:	addi	a3, a5, 111
+00011610:	addi	a1, a5, 110
+00011614:	slli	a3, a3, gp
+00011618:	jal	zero, -572
+0001161c:	addi	a4, zero, 340
+00011620:	bltu	a4, a5, 128
+00011624:	srli	a5, s1, a5
+00011628:	addi	a2, a5, 120
+0001162c:	addi	a0, a5, 119
+00011630:	slli	a3, a2, gp
+00011634:	jal	zero, -1476
+00011638:	addi	s8, gp, 116
+0001163c:	lw	a5, s8, 0
+00011640:	add	a5, s5, a5
+00011644:	sw	s8, a5, 0
+00011648:	jal	zero, -916
+0001164c:	slli	a4, s4, s4
+00011650:	bne	a4, zero, -924
+00011654:	lw	s0, s2, 8
+00011658:	add	s5, s6, s5
+0001165c:	ori	s5, s5, 1
+00011660:	sw	s0, s5, 4
+00011664:	jal	zero, -760
+00011668:	sw	gp, s7, 60
+0001166c:	jal	zero, -928
+00011670:	addi	s0, s7, 0
+00011674:	jal	zero, -776
+00011678:	addi	a5, zero, 1
+0001167c:	sw	s7, a5, 4
+00011680:	jal	zero, -324
+00011684:	addi	a4, zero, 340
+00011688:	bltu	a4, a5, 100
+0001168c:	srli	a5, a0, a5
+00011690:	addi	a3, a5, 120
+00011694:	addi	a1, a5, 119
+00011698:	slli	a3, a3, gp
+0001169c:	jal	zero, -704
+000116a0:	addi	a4, zero, 1364
+000116a4:	bltu	a4, a5, 100
+000116a8:	srli	a5, s1, s2
+000116ac:	addi	a2, a5, 125
+000116b0:	addi	a0, a5, 124
+000116b4:	slli	a3, a2, gp
+000116b8:	jal	zero, -1608
+000116bc:	addi	s9, s9, -8
+000116c0:	add	s5, s5, s9
+000116c4:	sub	s5, s5, s7
+000116c8:	addi	s4, zero, 0
+000116cc:	jal	zero, -952
+000116d0:	addi	a1, s0, 8
+000116d4:	addi	a0, s3, 0
+000116d8:	jal	ra, 4964
+000116dc:	lw	s0, s2, 8
+000116e0:	lw	a1, s8, 0
+000116e4:	lw	s5, s0, 4
+000116e8:	jal	zero, -892
+000116ec:	addi	a4, zero, 1364
+000116f0:	bltu	a4, a5, 40
+000116f4:	srli	a5, a0, s2
+000116f8:	addi	a3, a5, 125
+000116fc:	addi	a1, a5, 124
+00011700:	slli	a3, a3, gp
+00011704:	jal	zero, -808
+00011708:	addi	a3, zero, 1016
+0001170c:	addi	a2, zero, 127
+00011710:	addi	a0, zero, 126
+00011714:	jal	zero, -1700
+00011718:	addi	a3, zero, 1016
+0001171c:	addi	a1, zero, 126
+00011720:	jal	zero, -836
+00011724:	lw	a5, s2, 4
+00011728:	jal	zero, -420
+0001172c:	<memchr>	andi	a5, a0, 3
+00011730:	andi	a3, a1, 255
+00011734:	beq	a5, zero, 52
+00011738:	addi	a5, a2, -1
+0001173c:	beq	a2, zero, 60
+00011740:	addi	a2, zero, -1
+00011744:	jal	zero, 24
+00011748:	addi	a0, a0, 1
+0001174c:	andi	a4, a0, 3
+00011750:	beq	a4, zero, 28
+00011754:	addi	a5, a5, -1
+00011758:	beq	a5, a2, 32
+0001175c:	lbu	a4, a0, 0
+00011760:	bne	a4, a3, -24
+00011764:	jalr	zero, ra, 0
+00011768:	addi	a5, a2, 0
+0001176c:	addi	a4, zero, 3
+00011770:	bltu	a4, a5, 44
+00011774:	bne	a5, zero, 12
+00011778:	addi	a0, zero, 0
+0001177c:	jalr	zero, ra, 0
+00011780:	add	a5, a0, a5
+00011784:	jal	zero, 12
+00011788:	addi	a0, a0, 1
+0001178c:	beq	a5, a0, -20
+00011790:	lbu	a4, a0, 0
+00011794:	bne	a4, a3, -12
+00011798:	jalr	zero, ra, 0
+0001179c:	andi	a1, a1, 255
+000117a0:	slli	a7, a1, s0
+000117a4:	or	a1, a7, a1
+000117a8:	slli	a7, a1, a6
+000117ac:	or	a7, a7, a1
+000117b0:	lui	a6, -4311744512
+000117b4:	lui	a1, -547599941632
+000117b8:	addi	a6, a6, -257
+000117bc:	addi	a1, a1, 128
+000117c0:	addi	t1, zero, 3
+000117c4:	lw	a4, a0, 0
+000117c8:	xor	a4, a7, a4
+000117cc:	add	a2, a4, a6
+000117d0:	xori	a4, a4, -1
+000117d4:	and	a4, a2, a4
+000117d8:	and	a4, a4, a1
+000117dc:	bne	a4, zero, -92
+000117e0:	addi	a5, a5, -4
+000117e4:	addi	a0, a0, 4
+000117e8:	bltu	t1, a5, -36
+000117ec:	bne	a5, zero, -108
+000117f0:	jal	zero, -120
+000117f4:	<memcpy>	xor	a5, a1, a0
+000117f8:	andi	a5, a5, 3
+000117fc:	add	a7, a0, a2
+00011800:	bne	a5, zero, 100
+00011804:	addi	a5, zero, 3
+00011808:	bgeu	a5, a2, 92
+0001180c:	andi	a5, a0, 3
+00011810:	addi	a4, a0, 0
+00011814:	bne	a5, zero, 112
+00011818:	andi	a2, a7, -4
+0001181c:	addi	a5, a2, -32
+00011820:	bltu	a4, a5, 152
+00011824:	bgeu	a4, a2, 56
+00011828:	addi	a3, a1, 0
+0001182c:	addi	a5, a4, 0
+00011830:	lw	a6, a3, 0
+00011834:	addi	a5, a5, 4
+00011838:	addi	a3, a3, 4
+0001183c:	sw	a5, a6, -4
+00011840:	bltu	a5, a2, -16
+00011844:	addi	a5, a2, -1
+00011848:	sub	a5, a5, a4
+0001184c:	andi	a5, a5, -4
+00011850:	addi	a5, a5, 4
+00011854:	add	a4, a4, a5
+00011858:	add	a1, a1, a5
+0001185c:	bltu	a4, a7, 16
+00011860:	jalr	zero, ra, 0
+00011864:	addi	a4, a0, 0
+00011868:	bgeu	a0, a7, -8
+0001186c:	lbu	a5, a1, 0
+00011870:	addi	a4, a4, 1
+00011874:	addi	a1, a1, 1
+00011878:	sb	a4, a5, -1
+0001187c:	bltu	a4, a7, -16
+00011880:	jalr	zero, ra, 0
+00011884:	lbu	a3, a1, 0
+00011888:	addi	a4, a4, 1
+0001188c:	andi	a5, a4, 3
+00011890:	sb	a4, a3, -1
+00011894:	addi	a1, a1, 1
+00011898:	beq	a5, zero, -128
+0001189c:	lbu	a3, a1, 0
+000118a0:	addi	a4, a4, 1
+000118a4:	andi	a5, a4, 3
+000118a8:	sb	a4, a3, -1
+000118ac:	addi	a1, a1, 1
+000118b0:	bne	a5, zero, -44
+000118b4:	jal	zero, -156
+000118b8:	lw	a3, a1, 4
+000118bc:	lw	t0, a1, 0
+000118c0:	lw	t6, a1, 8
+000118c4:	lw	t5, a1, 12
+000118c8:	lw	t4, a1, 16
+000118cc:	lw	t3, a1, 20
+000118d0:	lw	t1, a1, 24
+000118d4:	lw	a6, a1, 28
+000118d8:	sw	a4, a3, 4
+000118dc:	lw	a3, a1, 32
+000118e0:	sw	a4, t0, 0
+000118e4:	sw	a4, t6, 8
+000118e8:	sw	a4, t5, 12
+000118ec:	sw	a4, t4, 16
+000118f0:	sw	a4, t3, 20
+000118f4:	sw	a4, t1, 24
+000118f8:	sw	a4, a6, 28
+000118fc:	sw	a4, a3, 32
+00011900:	addi	a4, a4, 36
+00011904:	addi	a1, a1, 36
+00011908:	bltu	a4, a5, -80
+0001190c:	jal	zero, -232
+00011910:	<memmove>	bgeu	a1, a0, 44
+00011914:	add	a5, a1, a2
+00011918:	bgeu	a0, a5, 36
+0001191c:	add	a4, a0, a2
+00011920:	beq	a2, zero, 244
+00011924:	lbu	a3, a5, -1
+00011928:	addi	a5, a5, -1
+0001192c:	addi	a4, a4, -1
+00011930:	sb	a4, a3, 0
+00011934:	bne	a1, a5, -16
+00011938:	jalr	zero, ra, 0
+0001193c:	addi	a5, zero, 15
+00011940:	bltu	a5, a2, 48
+00011944:	addi	a5, a0, 0
+00011948:	addi	a3, a2, -1
+0001194c:	beq	a2, zero, 216
+00011950:	addi	a3, a3, 1
+00011954:	add	a3, a5, a3
+00011958:	lbu	a4, a1, 0
+0001195c:	addi	a5, a5, 1
+00011960:	addi	a1, a1, 1
+00011964:	sb	a5, a4, -1
+00011968:	bne	a5, a3, -16
+0001196c:	jalr	zero, ra, 0
+00011970:	or	a5, a1, a0
+00011974:	andi	a5, a5, 3
+00011978:	bne	a5, zero, 160
+0001197c:	addi	a7, a2, -16
+00011980:	andi	a7, a7, -16
+00011984:	addi	a7, a7, 16
+00011988:	add	a6, a0, a7
+0001198c:	addi	a4, a1, 0
+00011990:	addi	a5, a0, 0
+00011994:	lw	a3, a4, 0
+00011998:	addi	a4, a4, 16
+0001199c:	addi	a5, a5, 16
+000119a0:	sw	a5, a3, -16
+000119a4:	lw	a3, a4, -12
+000119a8:	sw	a5, a3, -12
+000119ac:	lw	a3, a4, -8
+000119b0:	sw	a5, a3, -8
+000119b4:	lw	a3, a4, -4
+000119b8:	sw	a5, a3, -4
+000119bc:	bne	a6, a5, -40
+000119c0:	andi	a4, a2, 12
+000119c4:	add	a1, a1, a7
+000119c8:	andi	a6, a2, 15
+000119cc:	beq	a4, zero, 92
+000119d0:	addi	a4, a1, 0
+000119d4:	addi	a7, a5, 0
+000119d8:	addi	t3, zero, 3
+000119dc:	lw	t1, a4, 0
+000119e0:	addi	a4, a4, 4
+000119e4:	sub	a3, a6, a4
+000119e8:	sw	a7, t1, 0
+000119ec:	add	a3, a1, a3
+000119f0:	addi	a7, a7, 4
+000119f4:	bltu	t3, a3, -24
+000119f8:	addi	a4, a6, -4
+000119fc:	andi	a4, a4, -4
+00011a00:	addi	a4, a4, 4
+00011a04:	andi	a2, a2, 3
+00011a08:	add	a5, a5, a4
+00011a0c:	add	a1, a1, a4
+00011a10:	jal	zero, -200
+00011a14:	jalr	zero, ra, 0
+00011a18:	addi	a3, a2, -1
+00011a1c:	addi	a5, a0, 0
+00011a20:	jal	zero, -208
+00011a24:	jalr	zero, ra, 0
+00011a28:	addi	a2, a6, 0
+00011a2c:	jal	zero, -228
+00011a30:	<__malloc_lock>	jalr	zero, ra, 0
+00011a34:	<__malloc_unlock>	jalr	zero, ra, 0
+00011a38:	<_realloc_r>	addi	sp, sp, -48
+00011a3c:	sw	sp, s2, 32
+00011a40:	sw	sp, ra, 44
+00011a44:	sw	sp, s0, 40
+00011a48:	sw	sp, s1, 36
+00011a4c:	sw	sp, s3, 28
+00011a50:	sw	sp, s4, 24
+00011a54:	sw	sp, s5, 20
+00011a58:	sw	sp, s6, 16
+00011a5c:	sw	sp, s7, 12
+00011a60:	sw	sp, s8, 8
+00011a64:	addi	s2, a2, 0
+00011a68:	beq	a1, zero, 456
+00011a6c:	addi	s0, a1, 0
+00011a70:	addi	s3, a0, 0
+00011a74:	jal	ra, -68
+00011a78:	addi	s1, s2, 11
+00011a7c:	addi	a5, zero, 22
+00011a80:	bgeu	a5, s1, 248
+00011a84:	andi	s1, s1, -8
+00011a88:	addi	a4, s1, 0
+00011a8c:	blt	s1, zero, 248
+00011a90:	bltu	s1, s2, 244
+00011a94:	lw	a5, s0, -4
+00011a98:	addi	s5, s0, -8
+00011a9c:	andi	s4, a5, -4
+00011aa0:	add	s6, s5, s4
+00011aa4:	bge	s4, a4, 312
+00011aa8:	addi	s7, gp, -984
+00011aac:	lw	a2, s7, 8
+00011ab0:	lw	a3, s6, 4
+00011ab4:	beq	a2, s6, 480
+00011ab8:	andi	a2, a3, -2
+00011abc:	add	a2, s6, a2
+00011ac0:	lw	a2, a2, 4
+00011ac4:	andi	a2, a2, 1
+00011ac8:	bne	a2, zero, 332
+00011acc:	andi	a3, a3, -4
+00011ad0:	add	a2, s4, a3
+00011ad4:	bge	a2, a4, 240
+00011ad8:	andi	a5, a5, 1
+00011adc:	bne	a5, zero, 40
+00011ae0:	lw	s8, s0, -8
+00011ae4:	sub	s8, s5, s8
+00011ae8:	lw	a5, s8, 4
+00011aec:	andi	a5, a5, -4
+00011af0:	add	a3, a5, a3
+00011af4:	add	s7, a3, s4
+00011af8:	bge	s7, a4, 852
+00011afc:	add	s7, s4, a5
+00011b00:	bge	s7, a4, 712
+00011b04:	addi	a1, s2, 0
+00011b08:	addi	a0, s3, 0
+00011b0c:	jal	ra, -2936
+00011b10:	addi	s2, a0, 0
+00011b14:	beq	a0, zero, 88
+00011b18:	lw	a5, s0, -4
+00011b1c:	addi	a4, a0, -8
+00011b20:	andi	a5, a5, -2
+00011b24:	add	a5, s5, a5
+00011b28:	beq	a5, a4, 652
+00011b2c:	addi	a2, s4, -4
+00011b30:	addi	a5, zero, 36
+00011b34:	bltu	a5, a2, 780
+00011b38:	addi	a4, zero, 19
+00011b3c:	lw	a3, s0, 0
+00011b40:	bltu	a4, a2, 540
+00011b44:	addi	a5, a0, 0
+00011b48:	addi	a4, s0, 0
+00011b4c:	sw	a5, a3, 0
+00011b50:	lw	a3, a4, 4
+00011b54:	sw	a5, a3, 4
+00011b58:	lw	a4, a4, 8
+00011b5c:	sw	a5, a4, 8
+00011b60:	addi	a1, s0, 0
+00011b64:	addi	a0, s3, 0
+00011b68:	jal	ra, 3796
+00011b6c:	addi	a0, s3, 0
+00011b70:	jal	ra, -316
+00011b74:	jal	zero, 28
+00011b78:	addi	s1, zero, 16
+00011b7c:	addi	a4, zero, 16
+00011b80:	bgeu	s1, s2, -236
+00011b84:	addi	a5, zero, 12
+00011b88:	sw	s3, a5, 0
+00011b8c:	addi	s2, zero, 0
+00011b90:	lw	ra, sp, 44
+00011b94:	lw	s0, sp, 40
+00011b98:	lw	s1, sp, 36
+00011b9c:	lw	s3, sp, 28
+00011ba0:	lw	s4, sp, 24
+00011ba4:	lw	s5, sp, 20
+00011ba8:	lw	s6, sp, 16
+00011bac:	lw	s7, sp, 12
+00011bb0:	lw	s8, sp, 8
+00011bb4:	addi	a0, s2, 0
+00011bb8:	lw	s2, sp, 32
+00011bbc:	addi	sp, sp, 48
+00011bc0:	jalr	zero, ra, 0
+00011bc4:	lw	a5, s6, 12
+00011bc8:	lw	a4, s6, 8
+00011bcc:	addi	s4, a2, 0
+00011bd0:	add	s6, s5, a2
+00011bd4:	sw	a4, a5, 12
+00011bd8:	sw	a5, a4, 8
+00011bdc:	lw	a5, s5, 4
+00011be0:	sub	a4, s4, s1
+00011be4:	addi	a3, zero, 15
+00011be8:	andi	a5, a5, 1
+00011bec:	bltu	a3, a4, 120
+00011bf0:	or	a5, s4, a5
+00011bf4:	sw	s5, a5, 4
+00011bf8:	lw	a5, s6, 4
+00011bfc:	ori	a5, a5, 1
+00011c00:	sw	s6, a5, 4
+00011c04:	addi	a0, s3, 0
+00011c08:	jal	ra, -468
+00011c0c:	addi	s2, s0, 0
+00011c10:	jal	zero, -128
+00011c14:	andi	a5, a5, 1
+00011c18:	bne	a5, zero, -276
+00011c1c:	lw	s8, s0, -8
+00011c20:	sub	s8, s5, s8
+00011c24:	lw	a5, s8, 4
+00011c28:	andi	a5, a5, -4
+00011c2c:	jal	zero, -304
+00011c30:	lw	s0, sp, 40
+00011c34:	lw	ra, sp, 44
+00011c38:	lw	s1, sp, 36
+00011c3c:	lw	s2, sp, 32
+00011c40:	lw	s3, sp, 28
+00011c44:	lw	s4, sp, 24
+00011c48:	lw	s5, sp, 20
+00011c4c:	lw	s6, sp, 16
+00011c50:	lw	s7, sp, 12
+00011c54:	lw	s8, sp, 8
+00011c58:	addi	a1, a2, 0
+00011c5c:	addi	sp, sp, 48
+00011c60:	jal	zero, -3276
+00011c64:	or	a5, a5, s1
+00011c68:	sw	s5, a5, 4
+00011c6c:	add	a1, s5, s1
+00011c70:	ori	a4, a4, 1
+00011c74:	sw	a1, a4, 4
+00011c78:	lw	a5, s6, 4
+00011c7c:	addi	a1, a1, 8
+00011c80:	addi	a0, s3, 0
+00011c84:	ori	a5, a5, 1
+00011c88:	sw	s6, a5, 4
+00011c8c:	jal	ra, 3504
+00011c90:	jal	zero, -140
+00011c94:	andi	a3, a3, -4
+00011c98:	add	a2, s4, a3
+00011c9c:	addi	a1, s1, 16
+00011ca0:	bge	a2, a1, 224
+00011ca4:	andi	a5, a5, 1
+00011ca8:	bne	a5, zero, -420
+00011cac:	lw	s8, s0, -8
+00011cb0:	sub	s8, s5, s8
+00011cb4:	lw	a5, s8, 4
+00011cb8:	andi	a5, a5, -4
+00011cbc:	add	a3, a5, a3
+00011cc0:	add	s6, a3, s4
+00011cc4:	blt	s6, a1, -456
+00011cc8:	lw	a5, s8, 12
+00011ccc:	lw	a4, s8, 8
+00011cd0:	addi	a2, s4, -4
+00011cd4:	addi	a3, zero, 36
+00011cd8:	sw	a4, a5, 12
+00011cdc:	sw	a5, a4, 8
+00011ce0:	addi	s2, s8, 8
+00011ce4:	bltu	a3, a2, 632
+00011ce8:	addi	a1, zero, 19
+00011cec:	lw	a4, s0, 0
+00011cf0:	addi	a5, s2, 0
+00011cf4:	bgeu	a1, a2, 36
+00011cf8:	sw	s8, a4, 8
+00011cfc:	lw	a4, s0, 4
+00011d00:	addi	a5, zero, 27
+00011d04:	sw	s8, a4, 12
+00011d08:	bltu	a5, a2, 612
+00011d0c:	lw	a4, s0, 8
+00011d10:	addi	a5, s8, 16
+00011d14:	addi	s0, s0, 8
+00011d18:	sw	a5, a4, 0
+00011d1c:	lw	a4, s0, 4
+00011d20:	sw	a5, a4, 4
+00011d24:	lw	a4, s0, 8
+00011d28:	sw	a5, a4, 8
+00011d2c:	add	a4, s8, s1
+00011d30:	sub	a5, s6, s1
+00011d34:	sw	s7, a4, 8
+00011d38:	ori	a5, a5, 1
+00011d3c:	sw	a4, a5, 4
+00011d40:	lw	a5, s8, 4
+00011d44:	addi	a0, s3, 0
+00011d48:	andi	a5, a5, 1
+00011d4c:	or	s1, a5, s1
+00011d50:	sw	s8, s1, 4
+00011d54:	jal	ra, -800
+00011d58:	jal	zero, -456
+00011d5c:	sw	a0, a3, 0
+00011d60:	lw	a3, s0, 4
+00011d64:	addi	a4, zero, 27
+00011d68:	sw	a0, a3, 4
+00011d6c:	bltu	a4, a2, 380
+00011d70:	lw	a3, s0, 8
+00011d74:	addi	a4, s0, 8
+00011d78:	addi	a5, a0, 8
+00011d7c:	jal	zero, -560
+00011d80:	add	s5, s5, s1
+00011d84:	sub	a5, a2, s1
+00011d88:	sw	s7, s5, 8
+00011d8c:	ori	a5, a5, 1
+00011d90:	sw	s5, a5, 4
+00011d94:	lw	a5, s0, -4
+00011d98:	addi	a0, s3, 0
+00011d9c:	addi	s2, s0, 0
+00011da0:	andi	a5, a5, 1
+00011da4:	or	s1, a5, s1
+00011da8:	sw	s0, s1, -4
+00011dac:	jal	ra, -888
+00011db0:	jal	zero, -544
+00011db4:	lw	a5, a0, -4
+00011db8:	andi	a5, a5, -4
+00011dbc:	add	s4, s4, a5
+00011dc0:	add	s6, s5, s4
+00011dc4:	jal	zero, -488
+00011dc8:	lw	a5, s8, 12
+00011dcc:	lw	a4, s8, 8
+00011dd0:	addi	a2, s4, -4
+00011dd4:	addi	a3, zero, 36
+00011dd8:	sw	a4, a5, 12
+00011ddc:	sw	a5, a4, 8
+00011de0:	addi	s2, s8, 8
+00011de4:	add	s6, s8, s7
+00011de8:	bltu	a3, a2, 228
+00011dec:	addi	a1, zero, 19
+00011df0:	lw	a4, s0, 0
+00011df4:	addi	a5, s2, 0
+00011df8:	bgeu	a1, a2, 36
+00011dfc:	sw	s8, a4, 8
+00011e00:	lw	a4, s0, 4
+00011e04:	addi	a5, zero, 27
+00011e08:	sw	s8, a4, 12
+00011e0c:	bltu	a5, a2, 256
+00011e10:	lw	a4, s0, 8
+00011e14:	addi	a5, s8, 16
+00011e18:	addi	s0, s0, 8
+00011e1c:	sw	a5, a4, 0
+00011e20:	lw	a4, s0, 4
+00011e24:	addi	s4, s7, 0
+00011e28:	addi	s5, s8, 0
+00011e2c:	sw	a5, a4, 4
+00011e30:	lw	a4, s0, 8
+00011e34:	addi	s0, s2, 0
+00011e38:	sw	a5, a4, 8
+00011e3c:	jal	zero, -608
+00011e40:	addi	a1, s0, 0
+00011e44:	jal	ra, -1332
+00011e48:	jal	zero, -744
+00011e4c:	lw	a5, s6, 12
+00011e50:	lw	a4, s6, 8
+00011e54:	addi	a2, s4, -4
+00011e58:	addi	a3, zero, 36
+00011e5c:	sw	a4, a5, 12
+00011e60:	sw	a5, a4, 8
+00011e64:	lw	a4, s8, 8
+00011e68:	lw	a5, s8, 12
+00011e6c:	addi	s2, s8, 8
+00011e70:	add	s6, s8, s7
+00011e74:	sw	a4, a5, 12
+00011e78:	sw	a5, a4, 8
+00011e7c:	bltu	a3, a2, 80
+00011e80:	addi	a3, zero, 19
+00011e84:	lw	a4, s0, 0
+00011e88:	addi	a5, s2, 0
+00011e8c:	bgeu	a3, a2, -112
+00011e90:	sw	s8, a4, 8
+00011e94:	lw	a4, s0, 4
+00011e98:	addi	a5, zero, 27
+00011e9c:	sw	s8, a4, 12
+00011ea0:	lw	a4, s0, 8
+00011ea4:	bgeu	a5, a2, -144
+00011ea8:	sw	s8, a4, 16
+00011eac:	lw	a4, s0, 12
+00011eb0:	addi	a5, zero, 36
+00011eb4:	sw	s8, a4, 20
+00011eb8:	lw	a4, s0, 16
+00011ebc:	beq	a2, a5, 104
+00011ec0:	addi	a5, s8, 24
+00011ec4:	addi	s0, s0, 16
+00011ec8:	jal	zero, -172
+00011ecc:	addi	a1, s0, 0
+00011ed0:	addi	a0, s2, 0
+00011ed4:	jal	ra, -1476
+00011ed8:	addi	s0, s2, 0
+00011edc:	addi	s4, s7, 0
+00011ee0:	addi	s5, s8, 0
+00011ee4:	jal	zero, -776
+00011ee8:	lw	a4, s0, 8
+00011eec:	sw	a0, a4, 8
+00011ef0:	lw	a4, s0, 12
+00011ef4:	sw	a0, a4, 12
+00011ef8:	lw	a3, s0, 16
+00011efc:	beq	a2, a5, 68
+00011f00:	addi	a4, s0, 16
+00011f04:	addi	a5, a0, 16
+00011f08:	jal	zero, -956
+00011f0c:	lw	a5, s0, 8
+00011f10:	sw	s8, a5, 16
+00011f14:	lw	a5, s0, 12
+00011f18:	sw	s8, a5, 20
+00011f1c:	lw	a4, s0, 16
+00011f20:	bne	a2, a3, -96
+00011f24:	sw	s8, a4, 24
+00011f28:	lw	a4, s0, 20
+00011f2c:	addi	a5, s8, 32
+00011f30:	addi	s0, s0, 24
+00011f34:	sw	s8, a4, 28
+00011f38:	lw	a4, s0, 0
+00011f3c:	jal	zero, -288
+00011f40:	sw	a0, a3, 16
+00011f44:	lw	a3, s0, 20
+00011f48:	addi	a4, s0, 24
+00011f4c:	addi	a5, a0, 24
+00011f50:	sw	a0, a3, 20
+00011f54:	lw	a3, s0, 24
+00011f58:	jal	zero, -1036
+00011f5c:	addi	a1, s0, 0
+00011f60:	addi	a0, s2, 0
+00011f64:	jal	ra, -1620
+00011f68:	jal	zero, -572
+00011f6c:	lw	a5, s0, 8
+00011f70:	sw	s8, a5, 16
+00011f74:	lw	a5, s0, 12
+00011f78:	sw	s8, a5, 20
+00011f7c:	lw	a4, s0, 16
+00011f80:	beq	a2, a3, 16
+00011f84:	addi	a5, s8, 24
+00011f88:	addi	s0, s0, 16
+00011f8c:	jal	zero, -628
+00011f90:	sw	s8, a4, 24
+00011f94:	lw	a4, s0, 20
+00011f98:	addi	a5, s8, 32
+00011f9c:	addi	s0, s0, 24
+00011fa0:	sw	s8, a4, 28
+00011fa4:	lw	a4, s0, 0
+00011fa8:	jal	zero, -656
+00011fac:	<_sbrk_r>	addi	sp, sp, -16
+00011fb0:	sw	sp, s0, 8
+00011fb4:	sw	sp, s1, 4
+00011fb8:	addi	s0, a0, 0
+00011fbc:	addi	a0, a1, 0
+00011fc0:	sw	sp, ra, 12
+00011fc4:	sw	gp, zero, 80
+00011fc8:	jal	ra, 5376
+00011fcc:	addi	a5, zero, -1
+00011fd0:	beq	a0, a5, 24
+00011fd4:	lw	ra, sp, 12
+00011fd8:	lw	s0, sp, 8
+00011fdc:	lw	s1, sp, 4
+00011fe0:	addi	sp, sp, 16
+00011fe4:	jalr	zero, ra, 0
+00011fe8:	lw	a5, gp, 80
+00011fec:	beq	a5, zero, -24
+00011ff0:	lw	ra, sp, 12
+00011ff4:	sw	s0, a5, 0
+00011ff8:	lw	s0, sp, 8
+00011ffc:	lw	s1, sp, 4
+00012000:	addi	sp, sp, 16
+00012004:	jalr	zero, ra, 0
+00012008:	<__sread>	addi	sp, sp, -16
+0001200c:	sw	sp, s0, 8
+00012010:	addi	s0, a1, 0
+00012014:	lh	a1, a1, 14
+00012018:	sw	sp, ra, 12
+0001201c:	jal	ra, 4072
+00012020:	blt	a0, zero, 32
+00012024:	lw	a5, s0, 80
+00012028:	lw	ra, sp, 12
+0001202c:	add	a5, a5, a0
+00012030:	sw	s0, a5, 80
+00012034:	lw	s0, sp, 8
+00012038:	addi	sp, sp, 16
+0001203c:	jalr	zero, ra, 0
+00012040:	lhu	a5, s0, 12
+00012044:	lui	a4, -1048576
+00012048:	addi	a4, a4, -1
+0001204c:	and	a5, a5, a4
+00012050:	lw	ra, sp, 12
+00012054:	sh	s0, a5, 12
+00012058:	lw	s0, sp, 8
+0001205c:	addi	sp, sp, 16
+00012060:	jalr	zero, ra, 0
+00012064:	<__seofread>	addi	a0, zero, 0
+00012068:	jalr	zero, ra, 0
+0001206c:	<__swrite>	lh	a5, a1, 12
+00012070:	addi	sp, sp, -32
+00012074:	sw	sp, s0, 24
+00012078:	sw	sp, s1, 20
+0001207c:	sw	sp, s2, 16
+00012080:	sw	sp, s3, 12
+00012084:	sw	sp, ra, 28
+00012088:	andi	a4, a5, 256
+0001208c:	addi	s0, a1, 0
+00012090:	addi	s1, a0, 0
+00012094:	lh	a1, a1, 14
+00012098:	addi	s2, a2, 0
+0001209c:	addi	s3, a3, 0
+000120a0:	bne	a4, zero, 60
+000120a4:	lui	a4, -1048576
+000120a8:	addi	a4, a4, -1
+000120ac:	and	a5, a5, a4
+000120b0:	sh	s0, a5, 12
+000120b4:	lw	s0, sp, 24
+000120b8:	lw	ra, sp, 28
+000120bc:	addi	a3, s3, 0
+000120c0:	addi	a2, s2, 0
+000120c4:	lw	s3, sp, 12
+000120c8:	lw	s2, sp, 16
+000120cc:	addi	a0, s1, 0
+000120d0:	lw	s1, sp, 20
+000120d4:	addi	sp, sp, 32
+000120d8:	jal	zero, 140
+000120dc:	addi	a3, zero, 2
+000120e0:	addi	a2, zero, 0
+000120e4:	jal	ra, 3160
+000120e8:	lh	a5, s0, 12
+000120ec:	lh	a1, s0, 14
+000120f0:	jal	zero, -76
+000120f4:	<__sseek>	addi	sp, sp, -16
+000120f8:	sw	sp, s0, 8
+000120fc:	addi	s0, a1, 0
+00012100:	lh	a1, a1, 14
+00012104:	sw	sp, ra, 12
+00012108:	jal	ra, 3124
+0001210c:	addi	a5, zero, -1
+00012110:	beq	a0, a5, 40
+00012114:	lhu	a5, s0, 12
+00012118:	lui	a4, 1048576
+0001211c:	lw	ra, sp, 12
+00012120:	or	a5, a5, a4
+00012124:	sw	s0, a0, 80
+00012128:	sh	s0, a5, 12
+0001212c:	lw	s0, sp, 8
+00012130:	addi	sp, sp, 16
+00012134:	jalr	zero, ra, 0
+00012138:	lhu	a5, s0, 12
+0001213c:	lui	a4, -1048576
+00012140:	addi	a4, a4, -1
+00012144:	and	a5, a5, a4
+00012148:	lw	ra, sp, 12
+0001214c:	sh	s0, a5, 12
+00012150:	lw	s0, sp, 8
+00012154:	addi	sp, sp, 16
+00012158:	jalr	zero, ra, 0
+0001215c:	<__sclose>	lh	a1, a1, 14
+00012160:	jal	zero, 620
+00012164:	<_write_r>	addi	sp, sp, -16
+00012168:	addi	a4, a1, 0
+0001216c:	sw	sp, s0, 8
+00012170:	sw	sp, s1, 4
+00012174:	addi	a1, a2, 0
+00012178:	addi	s0, a0, 0
+0001217c:	addi	a2, a3, 0
+00012180:	addi	a0, a4, 0
+00012184:	sw	sp, ra, 12
+00012188:	sw	gp, zero, 80
+0001218c:	jal	ra, 5080
+00012190:	addi	a5, zero, -1
+00012194:	beq	a0, a5, 24
+00012198:	lw	ra, sp, 12
+0001219c:	lw	s0, sp, 8
+000121a0:	lw	s1, sp, 4
+000121a4:	addi	sp, sp, 16
+000121a8:	jalr	zero, ra, 0
+000121ac:	lw	a5, gp, 80
+000121b0:	beq	a5, zero, -24
+000121b4:	lw	ra, sp, 12
+000121b8:	sw	s0, a5, 0
+000121bc:	lw	s0, sp, 8
+000121c0:	lw	s1, sp, 4
+000121c4:	addi	sp, sp, 16
+000121c8:	jalr	zero, ra, 0
+000121cc:	<__swsetup_r>	lw	a5, gp, 56
+000121d0:	addi	sp, sp, -16
+000121d4:	sw	sp, s0, 8
+000121d8:	sw	sp, s1, 4
+000121dc:	sw	sp, ra, 12
+000121e0:	addi	s1, a0, 0
+000121e4:	addi	s0, a1, 0
+000121e8:	beq	a5, zero, 12
+000121ec:	lw	a4, a5, 56
+000121f0:	beq	a4, zero, 136
+000121f4:	lh	a4, s0, 12
+000121f8:	slli	a5, a4, a6
+000121fc:	andi	a3, a4, 8
+00012200:	srli	a5, a5, a6
+00012204:	beq	a3, zero, 144
+00012208:	lw	a3, s0, 16
+0001220c:	beq	a3, zero, 176
+00012210:	andi	a2, a5, 1
+00012214:	beq	a2, zero, 48
+00012218:	lw	a2, s0, 20
+0001221c:	sw	s0, zero, 8
+00012220:	addi	a0, zero, 0
+00012224:	sub	a2, zero, a2
+00012228:	sw	s0, a2, 24
+0001222c:	beq	a3, zero, 52
+00012230:	lw	ra, sp, 12
+00012234:	lw	s0, sp, 8
+00012238:	lw	s1, sp, 4
+0001223c:	addi	sp, sp, 16
+00012240:	jalr	zero, ra, 0
+00012244:	andi	a2, a5, 2
+00012248:	addi	a1, zero, 0
+0001224c:	bne	a2, zero, 8
+00012250:	lw	a1, s0, 20
+00012254:	sw	s0, a1, 8
+00012258:	addi	a0, zero, 0
+0001225c:	bne	a3, zero, -44
+00012260:	andi	a5, a5, 128
+00012264:	beq	a5, zero, -52
+00012268:	ori	a4, a4, 64
+0001226c:	sh	s0, a4, 12
+00012270:	addi	a0, zero, -1
+00012274:	jal	zero, -68
+00012278:	addi	a0, a5, 0
+0001227c:	jal	ra, -6516
+00012280:	lh	a4, s0, 12
+00012284:	slli	a5, a4, a6
+00012288:	andi	a3, a4, 8
+0001228c:	srli	a5, a5, a6
+00012290:	bne	a3, zero, -136
+00012294:	andi	a3, a5, 16
+00012298:	beq	a3, zero, 132
+0001229c:	andi	a5, a5, 4
+000122a0:	bne	a5, zero, 72
+000122a4:	lw	a3, s0, 16
+000122a8:	ori	a4, a4, 8
+000122ac:	slli	a5, a4, a6
+000122b0:	sh	s0, a4, 12
+000122b4:	srli	a5, a5, a6
+000122b8:	bne	a3, zero, -168
+000122bc:	andi	a2, a5, 640
+000122c0:	addi	a1, zero, 512
+000122c4:	beq	a2, a1, -180
+000122c8:	addi	a1, s0, 0
+000122cc:	addi	a0, s1, 0
+000122d0:	jal	ra, 2772
+000122d4:	lh	a4, s0, 12
+000122d8:	lw	a3, s0, 16
+000122dc:	slli	a5, a4, a6
+000122e0:	srli	a5, a5, a6
+000122e4:	jal	zero, -212
+000122e8:	lw	a1, s0, 48
+000122ec:	beq	a1, zero, 28
+000122f0:	addi	a5, s0, 64
+000122f4:	beq	a1, a5, 16
+000122f8:	addi	a0, s1, 0
+000122fc:	jal	ra, 1856
+00012300:	lh	a4, s0, 12
+00012304:	sw	s0, zero, 48
+00012308:	lw	a3, s0, 16
+0001230c:	andi	a4, a4, -37
+00012310:	sw	s0, zero, 4
+00012314:	sw	s0, a3, 0
+00012318:	jal	zero, -112
+0001231c:	addi	a5, zero, 9
+00012320:	sw	s1, a5, 0
+00012324:	ori	a4, a4, 64
+00012328:	sh	s0, a4, 12
+0001232c:	addi	a0, zero, -1
+00012330:	jal	zero, -256
+00012334:	<__register_exitproc>	lw	a4, gp, 48
+00012338:	lw	a5, a4, 328
+0001233c:	beq	a5, zero, 88
+00012340:	lw	a4, a5, 4
+00012344:	addi	a6, zero, 31
+00012348:	blt	a6, a4, 124
+0001234c:	slli	a6, a4, sp
+00012350:	beq	a0, zero, 44
+00012354:	add	t1, a5, a6
+00012358:	sw	t1, a2, 136
+0001235c:	lw	a7, a5, 392
+00012360:	addi	a2, zero, 1
+00012364:	sll	a2, a2, a4
+00012368:	or	a7, a7, a2
+0001236c:	sw	a5, a7, 392
+00012370:	sw	t1, a3, 264
+00012374:	addi	a3, zero, 2
+00012378:	beq	a0, a3, 40
+0001237c:	addi	a4, a4, 1
+00012380:	sw	a5, a4, 4
+00012384:	add	a5, a5, a6
+00012388:	sw	a5, a1, 8
+0001238c:	addi	a0, zero, 0
+00012390:	jalr	zero, ra, 0
+00012394:	addi	a5, a4, 332
+00012398:	sw	a4, a5, 328
+0001239c:	jal	zero, -92
+000123a0:	lw	a3, a5, 396
+000123a4:	addi	a4, a4, 1
+000123a8:	sw	a5, a4, 4
+000123ac:	or	a2, a3, a2
+000123b0:	sw	a5, a2, 396
+000123b4:	add	a5, a5, a6
+000123b8:	sw	a5, a1, 8
+000123bc:	addi	a0, zero, 0
+000123c0:	jalr	zero, ra, 0
+000123c4:	addi	a0, zero, -1
+000123c8:	jalr	zero, ra, 0
+000123cc:	<_close_r>	addi	sp, sp, -16
+000123d0:	sw	sp, s0, 8
+000123d4:	sw	sp, s1, 4
+000123d8:	addi	s0, a0, 0
+000123dc:	addi	a0, a1, 0
+000123e0:	sw	sp, ra, 12
+000123e4:	sw	gp, zero, 80
+000123e8:	jal	ra, 3828
+000123ec:	addi	a5, zero, -1
+000123f0:	beq	a0, a5, 24
+000123f4:	lw	ra, sp, 12
+000123f8:	lw	s0, sp, 8
+000123fc:	lw	s1, sp, 4
+00012400:	addi	sp, sp, 16
+00012404:	jalr	zero, ra, 0
+00012408:	lw	a5, gp, 80
+0001240c:	beq	a5, zero, -24
+00012410:	lw	ra, sp, 12
+00012414:	sw	s0, a5, 0
+00012418:	lw	s0, sp, 8
+0001241c:	lw	s1, sp, 4
+00012420:	addi	sp, sp, 16
+00012424:	jalr	zero, ra, 0
+00012428:	<_fclose_r.part.0>	addi	sp, sp, -16
+0001242c:	sw	sp, s0, 8
+00012430:	sw	sp, s1, 4
+00012434:	sw	sp, s2, 0
+00012438:	addi	s0, a1, 0
+0001243c:	sw	sp, ra, 12
+00012440:	addi	s1, a0, 0
+00012444:	jal	ra, 392
+00012448:	lw	a5, s0, 44
+0001244c:	addi	s2, a0, 0
+00012450:	beq	a5, zero, 20
+00012454:	lw	a1, s0, 28
+00012458:	addi	a0, s1, 0
+0001245c:	jalr	ra, a5, 0
+00012460:	blt	a0, zero, 104
+00012464:	lhu	a5, s0, 12
+00012468:	andi	a5, a5, 128
+0001246c:	bne	a5, zero, 108
+00012470:	lw	a1, s0, 48
+00012474:	beq	a1, zero, 24
+00012478:	addi	a5, s0, 64
+0001247c:	beq	a1, a5, 12
+00012480:	addi	a0, s1, 0
+00012484:	jal	ra, 1464
+00012488:	sw	s0, zero, 48
+0001248c:	lw	a1, s0, 68
+00012490:	beq	a1, zero, 16
+00012494:	addi	a0, s1, 0
+00012498:	jal	ra, 1444
+0001249c:	sw	s0, zero, 68
+000124a0:	jal	ra, -7048
+000124a4:	sh	s0, zero, 12
+000124a8:	jal	ra, -7052
+000124ac:	lw	ra, sp, 12
+000124b0:	lw	s0, sp, 8
+000124b4:	lw	s1, sp, 4
+000124b8:	addi	a0, s2, 0
+000124bc:	lw	s2, sp, 0
+000124c0:	addi	sp, sp, 16
+000124c4:	jalr	zero, ra, 0
+000124c8:	lhu	a5, s0, 12
+000124cc:	addi	s2, zero, -1
+000124d0:	andi	a5, a5, 128
+000124d4:	beq	a5, zero, -100
+000124d8:	lw	a1, s0, 16
+000124dc:	addi	a0, s1, 0
+000124e0:	jal	ra, 1372
+000124e4:	jal	zero, -116
+000124e8:	<_fclose_r>	beq	a1, zero, 104
+000124ec:	addi	sp, sp, -32
+000124f0:	sw	sp, s0, 24
+000124f4:	sw	sp, ra, 28
+000124f8:	addi	s0, a0, 0
+000124fc:	beq	a0, zero, 12
+00012500:	lw	a5, a0, 56
+00012504:	beq	a5, zero, 52
+00012508:	lh	a5, a1, 12
+0001250c:	bne	a5, zero, 24
+00012510:	lw	ra, sp, 28
+00012514:	lw	s0, sp, 24
+00012518:	addi	a0, zero, 0
+0001251c:	addi	sp, sp, 32
+00012520:	jalr	zero, ra, 0
+00012524:	addi	a0, s0, 0
+00012528:	lw	s0, sp, 24
+0001252c:	lw	ra, sp, 28
+00012530:	addi	sp, sp, 32
+00012534:	jal	zero, -268
+00012538:	sw	sp, a1, 12
+0001253c:	jal	ra, -7220
+00012540:	lw	a1, sp, 12
+00012544:	lh	a5, a1, 12
+00012548:	beq	a5, zero, -56
+0001254c:	jal	zero, -40
+00012550:	addi	a0, zero, 0
+00012554:	jalr	zero, ra, 0
+00012558:	<fclose>	beq	a0, zero, 108
+0001255c:	addi	sp, sp, -32
+00012560:	sw	sp, s0, 24
+00012564:	addi	s0, a0, 0
+00012568:	lw	a0, gp, 56
+0001256c:	sw	sp, ra, 28
+00012570:	beq	a0, zero, 12
+00012574:	lw	a5, a0, 56
+00012578:	beq	a5, zero, 52
+0001257c:	lh	a5, s0, 12
+00012580:	bne	a5, zero, 24
+00012584:	lw	ra, sp, 28
+00012588:	lw	s0, sp, 24
+0001258c:	addi	a0, zero, 0
+00012590:	addi	sp, sp, 32
+00012594:	jalr	zero, ra, 0
+00012598:	addi	a1, s0, 0
+0001259c:	lw	s0, sp, 24
+000125a0:	lw	ra, sp, 28
+000125a4:	addi	sp, sp, 32
+000125a8:	jal	zero, -384
+000125ac:	sw	sp, a0, 12
+000125b0:	jal	ra, -7336
+000125b4:	lh	a5, s0, 12
+000125b8:	lw	a0, sp, 12
+000125bc:	beq	a5, zero, -56
+000125c0:	jal	zero, -40
+000125c4:	addi	a0, zero, 0
+000125c8:	jalr	zero, ra, 0
+000125cc:	<__sflush_r>	lh	a5, a1, 12
+000125d0:	addi	sp, sp, -32
+000125d4:	sw	sp, s0, 24
+000125d8:	sw	sp, s3, 12
+000125dc:	sw	sp, ra, 28
+000125e0:	sw	sp, s1, 20
+000125e4:	sw	sp, s2, 16
+000125e8:	andi	a3, a5, 8
+000125ec:	addi	s0, a1, 0
+000125f0:	addi	s3, a0, 0
+000125f4:	bne	a3, zero, 280
+000125f8:	lui	a4, 1048576
+000125fc:	addi	a4, a4, -2048
+00012600:	lw	a3, a1, 4
+00012604:	or	a5, a5, a4
+00012608:	sh	a1, a5, 12
+0001260c:	bge	zero, a3, 396
+00012610:	lw	a4, s0, 40
+00012614:	beq	a4, zero, 216
+00012618:	slli	a5, a5, a6
+0001261c:	srli	a5, a5, a6
+00012620:	lui	a3, 1048576
+00012624:	lw	s1, s3, 0
+00012628:	and	a3, a5, a3
+0001262c:	sw	s3, zero, 0
+00012630:	lw	a1, s0, 28
+00012634:	bne	a3, zero, 368
+00012638:	addi	a3, zero, 1
+0001263c:	addi	a2, zero, 0
+00012640:	addi	a0, s3, 0
+00012644:	jalr	ra, a4, 0
+00012648:	addi	a5, zero, -1
+0001264c:	beq	a0, a5, 412
+00012650:	lhu	a5, s0, 12
+00012654:	lw	a4, s0, 40
+00012658:	lw	a1, s0, 28
+0001265c:	andi	a5, a5, 4
+00012660:	beq	a5, zero, 28
+00012664:	lw	a3, s0, 4
+00012668:	lw	a5, s0, 48
+0001266c:	sub	a0, a0, a3
+00012670:	beq	a5, zero, 12
+00012674:	lw	a5, s0, 60
+00012678:	sub	a0, a0, a5
+0001267c:	addi	a2, a0, 0
+00012680:	addi	a3, zero, 0
+00012684:	addi	a0, s3, 0
+00012688:	jalr	ra, a4, 0
+0001268c:	addi	a5, zero, -1
+00012690:	bne	a0, a5, 284
+00012694:	lw	a4, s3, 0
+00012698:	lh	a5, s0, 12
+0001269c:	beq	a4, zero, 372
+000126a0:	addi	a3, zero, 29
+000126a4:	beq	a4, a3, 12
+000126a8:	addi	a3, zero, 22
+000126ac:	bne	a4, a3, 200
+000126b0:	lw	a3, s0, 16
+000126b4:	lui	a4, -1048576
+000126b8:	addi	a4, a4, 2047
+000126bc:	and	a5, a5, a4
+000126c0:	sh	s0, a5, 12
+000126c4:	sw	s0, zero, 4
+000126c8:	sw	s0, a3, 0
+000126cc:	lw	a1, s0, 48
+000126d0:	sw	s3, s1, 0
+000126d4:	beq	a1, zero, 24
+000126d8:	addi	a5, s0, 64
+000126dc:	beq	a1, a5, 12
+000126e0:	addi	a0, s3, 0
+000126e4:	jal	ra, 856
+000126e8:	sw	s0, zero, 48
+000126ec:	addi	a0, zero, 0
+000126f0:	lw	ra, sp, 28
+000126f4:	lw	s0, sp, 24
+000126f8:	lw	s1, sp, 20
+000126fc:	lw	s2, sp, 16
+00012700:	lw	s3, sp, 12
+00012704:	addi	sp, sp, 32
+00012708:	jalr	zero, ra, 0
+0001270c:	lw	s2, a1, 16
+00012710:	beq	s2, zero, -36
+00012714:	lw	s1, a1, 0
+00012718:	slli	a4, a5, a6
+0001271c:	srli	a4, a4, a6
+00012720:	andi	a4, a4, 3
+00012724:	sw	a1, s2, 0
+00012728:	sub	s1, s1, s2
+0001272c:	addi	a5, zero, 0
+00012730:	bne	a4, zero, 8
+00012734:	lw	a5, a1, 20
+00012738:	sw	s0, a5, 8
+0001273c:	blt	zero, s1, 16
+00012740:	jal	zero, -84
+00012744:	add	s2, s2, a0
+00012748:	bge	zero, s1, -92
+0001274c:	lw	a5, s0, 36
+00012750:	lw	a1, s0, 28
+00012754:	addi	a3, s1, 0
+00012758:	addi	a2, s2, 0
+0001275c:	addi	a0, s3, 0
+00012760:	jalr	ra, a5, 0
+00012764:	sub	s1, s1, a0
+00012768:	blt	zero, a0, -36
+0001276c:	lhu	a5, s0, 12
+00012770:	addi	a0, zero, -1
+00012774:	ori	a5, a5, 64
+00012778:	lw	ra, sp, 28
+0001277c:	sh	s0, a5, 12
+00012780:	lw	s0, sp, 24
+00012784:	lw	s1, sp, 20
+00012788:	lw	s2, sp, 16
+0001278c:	lw	s3, sp, 12
+00012790:	addi	sp, sp, 32
+00012794:	jalr	zero, ra, 0
+00012798:	lw	a4, a1, 60
+0001279c:	blt	zero, a4, -396
+000127a0:	jal	zero, -180
+000127a4:	lw	a0, s0, 80
+000127a8:	jal	zero, -332
+000127ac:	lhu	a5, s0, 12
+000127b0:	lui	a4, -1048576
+000127b4:	addi	a4, a4, 2047
+000127b8:	and	a5, a5, a4
+000127bc:	lw	a3, s0, 16
+000127c0:	slli	a5, a5, a6
+000127c4:	srai	a5, a5, a6
+000127c8:	srli	a4, a5, a2
+000127cc:	sh	s0, a5, 12
+000127d0:	sw	s0, zero, 4
+000127d4:	sw	s0, a3, 0
+000127d8:	andi	a5, a4, 1
+000127dc:	beq	a5, zero, -272
+000127e0:	sw	s0, a0, 80
+000127e4:	jal	zero, -280
+000127e8:	lw	a5, s3, 0
+000127ec:	beq	a5, zero, -412
+000127f0:	addi	a4, zero, 29
+000127f4:	beq	a5, a4, 48
+000127f8:	addi	a4, zero, 22
+000127fc:	beq	a5, a4, 40
+00012800:	lhu	a5, s0, 12
+00012804:	ori	a5, a5, 64
+00012808:	sh	s0, a5, 12
+0001280c:	jal	zero, -284
+00012810:	lui	a4, -1048576
+00012814:	addi	a4, a4, 2047
+00012818:	lw	a3, s0, 16
+0001281c:	and	a5, a5, a4
+00012820:	jal	zero, -88
+00012824:	sw	s3, s1, 0
+00012828:	addi	a0, zero, 0
+0001282c:	jal	zero, -316
+00012830:	<_fflush_r>	addi	sp, sp, -32
+00012834:	sw	sp, s0, 24
+00012838:	sw	sp, ra, 28
+0001283c:	addi	s0, a0, 0
+00012840:	beq	a0, zero, 12
+00012844:	lw	a5, a0, 56
+00012848:	beq	a5, zero, 32
+0001284c:	lh	a5, a1, 12
+00012850:	bne	a5, zero, 44
+00012854:	lw	ra, sp, 28
+00012858:	lw	s0, sp, 24
+0001285c:	addi	a0, zero, 0
+00012860:	addi	sp, sp, 32
+00012864:	jalr	zero, ra, 0
+00012868:	sw	sp, a1, 12
+0001286c:	jal	ra, -8036
+00012870:	lw	a1, sp, 12
+00012874:	lh	a5, a1, 12
+00012878:	beq	a5, zero, -36
+0001287c:	addi	a0, s0, 0
+00012880:	lw	s0, sp, 24
+00012884:	lw	ra, sp, 28
+00012888:	addi	sp, sp, 32
+0001288c:	jal	zero, -704
+00012890:	<fflush>	beq	a0, zero, 108
+00012894:	addi	sp, sp, -32
+00012898:	sw	sp, s0, 24
+0001289c:	addi	s0, a0, 0
+000128a0:	lw	a0, gp, 56
+000128a4:	sw	sp, ra, 28
+000128a8:	beq	a0, zero, 12
+000128ac:	lw	a5, a0, 56
+000128b0:	beq	a5, zero, 52
+000128b4:	lh	a5, s0, 12
+000128b8:	bne	a5, zero, 24
+000128bc:	lw	ra, sp, 28
+000128c0:	lw	s0, sp, 24
+000128c4:	addi	a0, zero, 0
+000128c8:	addi	sp, sp, 32
+000128cc:	jalr	zero, ra, 0
+000128d0:	addi	a1, s0, 0
+000128d4:	lw	s0, sp, 24
+000128d8:	lw	ra, sp, 28
+000128dc:	addi	sp, sp, 32
+000128e0:	jal	zero, -788
+000128e4:	sw	sp, a0, 12
+000128e8:	jal	ra, -8160
+000128ec:	lh	a5, s0, 12
+000128f0:	lw	a0, sp, 12
+000128f4:	beq	a5, zero, -56
+000128f8:	jal	zero, -40
+000128fc:	lw	a0, gp, 48
+00012900:	lui	a1, 19922944
+00012904:	addi	a1, a1, -2000
+00012908:	jal	zero, -6696
+0001290c:	<_malloc_trim_r>	addi	sp, sp, -32
+00012910:	sw	sp, s3, 12
+00012914:	sw	sp, s0, 24
+00012918:	sw	sp, s1, 20
+0001291c:	sw	sp, s2, 16
+00012920:	sw	sp, s4, 8
+00012924:	sw	sp, ra, 28
+00012928:	addi	s4, a1, 0
+0001292c:	addi	s2, a0, 0
+00012930:	addi	s3, gp, -984
+00012934:	jal	ra, -3844
+00012938:	lw	a4, s3, 8
+0001293c:	lui	a5, 1048576
+00012940:	addi	s0, a5, -17
+00012944:	lw	s1, a4, 4
+00012948:	sub	s0, s0, s4
+0001294c:	andi	s1, s1, -4
+00012950:	add	s0, s0, s1
+00012954:	srli	s0, s0, a2
+00012958:	addi	s0, s0, -1
+0001295c:	slli	s0, s0, a2
+00012960:	blt	s0, a5, 28
+00012964:	addi	a1, zero, 0
+00012968:	addi	a0, s2, 0
+0001296c:	jal	ra, -2496
+00012970:	lw	a5, s3, 8
+00012974:	add	a5, a5, s1
+00012978:	beq	a0, a5, 48
+0001297c:	addi	a0, s2, 0
+00012980:	jal	ra, -3916
+00012984:	lw	ra, sp, 28
+00012988:	lw	s0, sp, 24
+0001298c:	lw	s1, sp, 20
+00012990:	lw	s2, sp, 16
+00012994:	lw	s3, sp, 12
+00012998:	lw	s4, sp, 8
+0001299c:	addi	a0, zero, 0
+000129a0:	addi	sp, sp, 32
+000129a4:	jalr	zero, ra, 0
+000129a8:	sub	a1, zero, s0
+000129ac:	addi	a0, s2, 0
+000129b0:	jal	ra, -2564
+000129b4:	addi	a5, zero, -1
+000129b8:	beq	a0, a5, 80
+000129bc:	addi	a5, gp, 116
+000129c0:	lw	a4, a5, 0
+000129c4:	lw	a3, s3, 8
+000129c8:	sub	s1, s1, s0
+000129cc:	ori	s1, s1, 1
+000129d0:	sub	s0, a4, s0
+000129d4:	addi	a0, s2, 0
+000129d8:	sw	a3, s1, 4
+000129dc:	sw	a5, s0, 0
+000129e0:	jal	ra, -4012
+000129e4:	lw	ra, sp, 28
+000129e8:	lw	s0, sp, 24
+000129ec:	lw	s1, sp, 20
+000129f0:	lw	s2, sp, 16
+000129f4:	lw	s3, sp, 12
+000129f8:	lw	s4, sp, 8
+000129fc:	addi	a0, zero, 1
+00012a00:	addi	sp, sp, 32
+00012a04:	jalr	zero, ra, 0
+00012a08:	addi	a1, zero, 0
+00012a0c:	addi	a0, s2, 0
+00012a10:	jal	ra, -2660
+00012a14:	lw	a4, s3, 8
+00012a18:	addi	a3, zero, 15
+00012a1c:	sub	a5, a0, a4
+00012a20:	bge	a3, a5, -164
+00012a24:	lw	a3, gp, 60
+00012a28:	ori	a5, a5, 1
+00012a2c:	sw	a4, a5, 4
+00012a30:	sub	a0, a0, a3
+00012a34:	sw	gp, a0, 116
+00012a38:	jal	zero, -188
+00012a3c:	<_free_r>	beq	a1, zero, 296
+00012a40:	addi	sp, sp, -16
+00012a44:	sw	sp, s0, 8
+00012a48:	sw	sp, s1, 4
+00012a4c:	addi	s0, a1, 0
+00012a50:	addi	s1, a0, 0
+00012a54:	sw	sp, ra, 12
+00012a58:	jal	ra, -4136
+00012a5c:	lw	a6, s0, -4
+00012a60:	addi	a4, s0, -8
+00012a64:	andi	a5, a6, -2
+00012a68:	add	a2, a4, a5
+00012a6c:	addi	a1, gp, -984
+00012a70:	lw	a3, a2, 4
+00012a74:	lw	a0, a1, 8
+00012a78:	andi	a3, a3, -4
+00012a7c:	beq	a0, a2, 428
+00012a80:	sw	a2, a3, 4
+00012a84:	andi	a6, a6, 1
+00012a88:	add	a0, a2, a3
+00012a8c:	bne	a6, zero, 156
+00012a90:	lw	t1, s0, -8
+00012a94:	lw	a6, a0, 4
+00012a98:	sub	a4, a4, t1
+00012a9c:	lw	a7, a4, 8
+00012aa0:	addi	a0, gp, -976
+00012aa4:	add	a5, a5, t1
+00012aa8:	andi	a6, a6, 1
+00012aac:	beq	a7, a0, 316
+00012ab0:	lw	t1, a4, 12
+00012ab4:	sw	a7, t1, 12
+00012ab8:	sw	t1, a7, 8
+00012abc:	beq	a6, zero, 476
+00012ac0:	ori	a3, a5, 1
+00012ac4:	sw	a4, a3, 4
+00012ac8:	sw	a2, a5, 0
+00012acc:	addi	a3, zero, 511
+00012ad0:	bltu	a3, a5, 172
+00012ad4:	andi	a3, a5, -8
+00012ad8:	addi	a3, a3, 8
+00012adc:	lw	a0, a1, 4
+00012ae0:	add	a3, a1, a3
+00012ae4:	lw	a2, a3, 0
+00012ae8:	srli	a6, a5, t0
+00012aec:	addi	a5, zero, 1
+00012af0:	sll	a5, a5, a6
+00012af4:	or	a5, a5, a0
+00012af8:	addi	a0, a3, -8
+00012afc:	sw	a4, a0, 12
+00012b00:	sw	a4, a2, 8
+00012b04:	sw	a1, a5, 4
+00012b08:	sw	a3, a4, 0
+00012b0c:	sw	a2, a4, 12
+00012b10:	lw	s0, sp, 8
+00012b14:	lw	ra, sp, 12
+00012b18:	addi	a0, s1, 0
+00012b1c:	lw	s1, sp, 4
+00012b20:	addi	sp, sp, 16
+00012b24:	jal	zero, -4336
+00012b28:	lw	a0, a0, 4
+00012b2c:	andi	a0, a0, 1
+00012b30:	bne	a0, zero, 56
+00012b34:	add	a5, a5, a3
+00012b38:	addi	a0, gp, -976
+00012b3c:	lw	a3, a2, 8
+00012b40:	ori	a7, a5, 1
+00012b44:	add	a6, a4, a5
+00012b48:	beq	a3, a0, 360
+00012b4c:	lw	a2, a2, 12
+00012b50:	sw	a3, a2, 12
+00012b54:	sw	a2, a3, 8
+00012b58:	sw	a4, a7, 4
+00012b5c:	sw	a6, a5, 0
+00012b60:	jal	zero, -148
+00012b64:	jalr	zero, ra, 0
+00012b68:	ori	a3, a5, 1
+00012b6c:	sw	s0, a3, -4
+00012b70:	sw	a2, a5, 0
+00012b74:	addi	a3, zero, 511
+00012b78:	bgeu	a3, a5, -164
+00012b7c:	srli	a3, a5, s1
+00012b80:	addi	a2, zero, 4
+00012b84:	bltu	a2, a3, 240
+00012b88:	srli	a3, a5, t1
+00012b8c:	addi	a6, a3, 57
+00012b90:	addi	a2, a3, 56
+00012b94:	slli	a6, a6, gp
+00012b98:	add	a6, a1, a6
+00012b9c:	lw	a3, a6, 0
+00012ba0:	addi	a6, a6, -8
+00012ba4:	beq	a6, a3, 296
+00012ba8:	lw	a2, a3, 4
+00012bac:	andi	a2, a2, -4
+00012bb0:	bgeu	a5, a2, 12
+00012bb4:	lw	a3, a3, 8
+00012bb8:	bne	a6, a3, -16
+00012bbc:	lw	a6, a3, 12
+00012bc0:	sw	a4, a6, 12
+00012bc4:	sw	a4, a3, 8
+00012bc8:	lw	s0, sp, 8
+00012bcc:	lw	ra, sp, 12
+00012bd0:	sw	a6, a4, 8
+00012bd4:	addi	a0, s1, 0
+00012bd8:	lw	s1, sp, 4
+00012bdc:	sw	a3, a4, 12
+00012be0:	addi	sp, sp, 16
+00012be4:	jal	zero, -4528
+00012be8:	bne	a6, zero, 324
+00012bec:	lw	a1, a2, 12
+00012bf0:	lw	a2, a2, 8
+00012bf4:	add	a5, a3, a5
+00012bf8:	lw	s0, sp, 8
+00012bfc:	sw	a2, a1, 12
+00012c00:	sw	a1, a2, 8
+00012c04:	ori	a3, a5, 1
+00012c08:	lw	ra, sp, 12
+00012c0c:	sw	a4, a3, 4
+00012c10:	addi	a0, s1, 0
+00012c14:	add	a4, a4, a5
+00012c18:	lw	s1, sp, 4
+00012c1c:	sw	a4, a5, 0
+00012c20:	addi	sp, sp, 16
+00012c24:	jal	zero, -4592
+00012c28:	andi	a6, a6, 1
+00012c2c:	add	a5, a5, a3
+00012c30:	bne	a6, zero, 32
+00012c34:	lw	a0, s0, -8
+00012c38:	sub	a4, a4, a0
+00012c3c:	lw	a3, a4, 12
+00012c40:	lw	a2, a4, 8
+00012c44:	add	a5, a5, a0
+00012c48:	sw	a2, a3, 12
+00012c4c:	sw	a3, a2, 8
+00012c50:	ori	a2, a5, 1
+00012c54:	lw	a3, gp, 64
+00012c58:	sw	a4, a2, 4
+00012c5c:	sw	a1, a4, 8
+00012c60:	bltu	a5, a3, -336
+00012c64:	lw	a1, gp, 76
+00012c68:	addi	a0, s1, 0
+00012c6c:	jal	ra, -864
+00012c70:	jal	zero, -352
+00012c74:	addi	a2, zero, 20
+00012c78:	bgeu	a2, a3, 40
+00012c7c:	addi	a2, zero, 84
+00012c80:	bltu	a2, a3, 104
+00012c84:	srli	a3, a5, a2
+00012c88:	addi	a6, a3, 111
+00012c8c:	addi	a2, a3, 110
+00012c90:	slli	a6, a6, gp
+00012c94:	jal	zero, -252
+00012c98:	add	a5, a5, a3
+00012c9c:	jal	zero, -352
+00012ca0:	addi	a6, a3, 92
+00012ca4:	addi	a2, a3, 91
+00012ca8:	slli	a6, a6, gp
+00012cac:	jal	zero, -276
+00012cb0:	sw	a1, a4, 20
+00012cb4:	sw	a1, a4, 16
+00012cb8:	sw	a4, a0, 12
+00012cbc:	sw	a4, a0, 8
+00012cc0:	sw	a4, a7, 4
+00012cc4:	sw	a6, a5, 0
+00012cc8:	jal	zero, -440
+00012ccc:	lw	a0, a1, 4
+00012cd0:	srai	a2, a2, sp
+00012cd4:	addi	a5, zero, 1
+00012cd8:	sll	a2, a5, a2
+00012cdc:	or	a2, a2, a0
+00012ce0:	sw	a1, a2, 4
+00012ce4:	jal	zero, -292
+00012ce8:	addi	a2, zero, 340
+00012cec:	bltu	a2, a3, 24
+00012cf0:	srli	a3, a5, a5
+00012cf4:	addi	a6, a3, 120
+00012cf8:	addi	a2, a3, 119
+00012cfc:	slli	a6, a6, gp
+00012d00:	jal	zero, -360
+00012d04:	addi	a2, zero, 1364
+00012d08:	bltu	a2, a3, 24
+00012d0c:	srli	a3, a5, s2
+00012d10:	addi	a6, a3, 125
+00012d14:	addi	a2, a3, 124
+00012d18:	slli	a6, a6, gp
+00012d1c:	jal	zero, -388
+00012d20:	addi	a6, zero, 1016
+00012d24:	addi	a2, zero, 126
+00012d28:	jal	zero, -400
+00012d2c:	ori	a3, a5, 1
+00012d30:	sw	a4, a3, 4
+00012d34:	sw	a2, a5, 0
+00012d38:	jal	zero, -552
+00012d3c:	<_lseek_r>	addi	sp, sp, -16
+00012d40:	addi	a4, a1, 0
+00012d44:	sw	sp, s0, 8
+00012d48:	sw	sp, s1, 4
+00012d4c:	addi	a1, a2, 0
+00012d50:	addi	s0, a0, 0
+00012d54:	addi	a2, a3, 0
+00012d58:	addi	a0, a4, 0
+00012d5c:	sw	sp, ra, 12
+00012d60:	sw	gp, zero, 80
+00012d64:	jal	ra, 1732
+00012d68:	addi	a5, zero, -1
+00012d6c:	beq	a0, a5, 24
+00012d70:	lw	ra, sp, 12
+00012d74:	lw	s0, sp, 8
+00012d78:	lw	s1, sp, 4
+00012d7c:	addi	sp, sp, 16
+00012d80:	jalr	zero, ra, 0
+00012d84:	lw	a5, gp, 80
+00012d88:	beq	a5, zero, -24
+00012d8c:	lw	ra, sp, 12
+00012d90:	sw	s0, a5, 0
+00012d94:	lw	s0, sp, 8
+00012d98:	lw	s1, sp, 4
+00012d9c:	addi	sp, sp, 16
+00012da0:	jalr	zero, ra, 0
+00012da4:	<__smakebuf_r>	lhu	a5, a1, 12
+00012da8:	addi	sp, sp, -128
+00012dac:	sw	sp, s0, 120
+00012db0:	sw	sp, ra, 124
+00012db4:	sw	sp, s1, 116
+00012db8:	sw	sp, s2, 112
+00012dbc:	sw	sp, s3, 108
+00012dc0:	sw	sp, s4, 104
+00012dc4:	andi	a4, a5, 2
+00012dc8:	addi	s0, a1, 0
+00012dcc:	beq	a4, zero, 56
+00012dd0:	addi	a5, a1, 67
+00012dd4:	sw	a1, a5, 0
+00012dd8:	sw	a1, a5, 16
+00012ddc:	addi	a5, zero, 1
+00012de0:	sw	a1, a5, 20
+00012de4:	lw	ra, sp, 124
+00012de8:	lw	s0, sp, 120
+00012dec:	lw	s1, sp, 116
+00012df0:	lw	s2, sp, 112
+00012df4:	lw	s3, sp, 108
+00012df8:	lw	s4, sp, 104
+00012dfc:	addi	sp, sp, 128
+00012e00:	jalr	zero, ra, 0
+00012e04:	lh	a1, a1, 14
+00012e08:	addi	s1, a0, 0
+00012e0c:	blt	a1, zero, 152
+00012e10:	addi	a2, sp, 8
+00012e14:	jal	ra, 1032
+00012e18:	blt	a0, zero, 136
+00012e1c:	lw	a5, sp, 12
+00012e20:	lui	s2, 15728640
+00012e24:	addi	s4, zero, 1024
+00012e28:	and	s2, s2, a5
+00012e2c:	lui	a5, -2097152
+00012e30:	add	s2, s2, a5
+00012e34:	lui	a5, 1048576
+00012e38:	sltiu	s2, s2, 1
+00012e3c:	addi	s3, a5, -2048
+00012e40:	addi	a1, s4, 0
+00012e44:	addi	a0, s1, 0
+00012e48:	jal	ra, -7860
+00012e4c:	lh	a5, s0, 12
+00012e50:	beq	a0, zero, 124
+00012e54:	lui	a4, 16777216
+00012e58:	addi	a4, a4, 1472
+00012e5c:	sw	s1, a4, 60
+00012e60:	ori	a5, a5, 128
+00012e64:	sh	s0, a5, 12
+00012e68:	sw	s0, a0, 0
+00012e6c:	sw	s0, a0, 16
+00012e70:	sw	s0, s4, 20
+00012e74:	bne	s2, zero, 144
+00012e78:	or	a5, a5, s3
+00012e7c:	lw	ra, sp, 124
+00012e80:	sh	s0, a5, 12
+00012e84:	lw	s0, sp, 120
+00012e88:	lw	s1, sp, 116
+00012e8c:	lw	s2, sp, 112
+00012e90:	lw	s3, sp, 108
+00012e94:	lw	s4, sp, 104
+00012e98:	addi	sp, sp, 128
+00012e9c:	jalr	zero, ra, 0
+00012ea0:	lhu	a5, s0, 12
+00012ea4:	andi	a5, a5, 128
+00012ea8:	addi	s2, zero, 0
+00012eac:	beq	a5, zero, 76
+00012eb0:	addi	s4, zero, 64
+00012eb4:	addi	a1, s4, 0
+00012eb8:	addi	a0, s1, 0
+00012ebc:	jal	ra, -7976
+00012ec0:	lh	a5, s0, 12
+00012ec4:	addi	s3, zero, 0
+00012ec8:	bne	a0, zero, -116
+00012ecc:	andi	a4, a5, 512
+00012ed0:	bne	a4, zero, -236
+00012ed4:	andi	a5, a5, -4
+00012ed8:	ori	a5, a5, 2
+00012edc:	addi	a4, s0, 67
+00012ee0:	sh	s0, a5, 12
+00012ee4:	addi	a5, zero, 1
+00012ee8:	sw	s0, a4, 0
+00012eec:	sw	s0, a4, 16
+00012ef0:	sw	s0, a5, 20
+00012ef4:	jal	zero, -272
+00012ef8:	addi	s4, zero, 1024
+00012efc:	addi	s3, zero, 0
+00012f00:	jal	zero, -192
+00012f04:	lh	a1, s0, 14
+00012f08:	addi	a0, s1, 0
+00012f0c:	jal	ra, 884
+00012f10:	bne	a0, zero, 12
+00012f14:	lh	a5, s0, 12
+00012f18:	jal	zero, -160
+00012f1c:	lhu	a5, s0, 12
+00012f20:	andi	a5, a5, -4
+00012f24:	ori	a5, a5, 1
+00012f28:	slli	a5, a5, a6
+00012f2c:	srai	a5, a5, a6
+00012f30:	jal	zero, -184
+00012f34:	<__swhatbuf_r>	addi	sp, sp, -112
+00012f38:	sw	sp, s0, 104
+00012f3c:	addi	s0, a1, 0
+00012f40:	lh	a1, a1, 14
+00012f44:	sw	sp, s1, 100
+00012f48:	sw	sp, s2, 96
+00012f4c:	sw	sp, ra, 108
+00012f50:	addi	s1, a2, 0
+00012f54:	addi	s2, a3, 0
+00012f58:	blt	a1, zero, 84
+00012f5c:	addi	a2, sp, 8
+00012f60:	jal	ra, 700
+00012f64:	blt	a0, zero, 72
+00012f68:	lw	a4, sp, 12
+00012f6c:	lui	a5, 15728640
+00012f70:	lw	ra, sp, 108
+00012f74:	and	a5, a5, a4
+00012f78:	lui	a4, -2097152
+00012f7c:	add	a5, a5, a4
+00012f80:	lw	s0, sp, 104
+00012f84:	sltiu	a5, a5, 1
+00012f88:	sw	s2, a5, 0
+00012f8c:	addi	a5, zero, 1024
+00012f90:	sw	s1, a5, 0
+00012f94:	lui	a0, 1048576
+00012f98:	lw	s1, sp, 100
+00012f9c:	lw	s2, sp, 96
+00012fa0:	addi	a0, a0, -2048
+00012fa4:	addi	sp, sp, 112
+00012fa8:	jalr	zero, ra, 0
+00012fac:	lh	a5, s0, 12
+00012fb0:	sw	s2, zero, 0
+00012fb4:	andi	a5, a5, 128
+00012fb8:	beq	a5, zero, 40
+00012fbc:	lw	ra, sp, 108
+00012fc0:	lw	s0, sp, 104
+00012fc4:	addi	a5, zero, 64
+00012fc8:	sw	s1, a5, 0
+00012fcc:	lw	s2, sp, 96
+00012fd0:	lw	s1, sp, 100
+00012fd4:	addi	a0, zero, 0
+00012fd8:	addi	sp, sp, 112
+00012fdc:	jalr	zero, ra, 0
+00012fe0:	lw	ra, sp, 108
+00012fe4:	lw	s0, sp, 104
+00012fe8:	addi	a5, zero, 1024
+00012fec:	sw	s1, a5, 0
+00012ff0:	lw	s2, sp, 96
+00012ff4:	lw	s1, sp, 100
+00012ff8:	addi	a0, zero, 0
+00012ffc:	addi	sp, sp, 112
+00013000:	jalr	zero, ra, 0
+00013004:	<_read_r>	addi	sp, sp, -16
+00013008:	addi	a4, a1, 0
+0001300c:	sw	sp, s0, 8
+00013010:	sw	sp, s1, 4
+00013014:	addi	a1, a2, 0
+00013018:	addi	s0, a0, 0
+0001301c:	addi	a2, a3, 0
+00013020:	addi	a0, a4, 0
+00013024:	sw	sp, ra, 12
+00013028:	sw	gp, zero, 80
+0001302c:	jal	ra, 1100
+00013030:	addi	a5, zero, -1
+00013034:	beq	a0, a5, 24
+00013038:	lw	ra, sp, 12
+0001303c:	lw	s0, sp, 8
+00013040:	lw	s1, sp, 4
+00013044:	addi	sp, sp, 16
+00013048:	jalr	zero, ra, 0
+0001304c:	lw	a5, gp, 80
+00013050:	beq	a5, zero, -24
+00013054:	lw	ra, sp, 12
+00013058:	sw	s0, a5, 0
+0001305c:	lw	s0, sp, 8
+00013060:	lw	s1, sp, 4
+00013064:	addi	sp, sp, 16
+00013068:	jalr	zero, ra, 0
+0001306c:	<cleanup_glue>	addi	sp, sp, -32
+00013070:	sw	sp, s2, 16
+00013074:	lw	s2, a1, 0
+00013078:	sw	sp, s0, 24
+0001307c:	sw	sp, s1, 20
+00013080:	sw	sp, ra, 28
+00013084:	sw	sp, s3, 12
+00013088:	sw	sp, s4, 8
+0001308c:	addi	s0, a1, 0
+00013090:	addi	s1, a0, 0
+00013094:	beq	s2, zero, 68
+00013098:	lw	s3, s2, 0
+0001309c:	beq	s3, zero, 48
+000130a0:	lw	s4, s3, 0
+000130a4:	beq	s4, zero, 28
+000130a8:	lw	a1, s4, 0
+000130ac:	beq	a1, zero, 8
+000130b0:	jal	ra, -68
+000130b4:	addi	a1, s4, 0
+000130b8:	addi	a0, s1, 0
+000130bc:	jal	ra, -1664
+000130c0:	addi	a1, s3, 0
+000130c4:	addi	a0, s1, 0
+000130c8:	jal	ra, -1676
+000130cc:	addi	a1, s2, 0
+000130d0:	addi	a0, s1, 0
+000130d4:	jal	ra, -1688
+000130d8:	addi	a1, s0, 0
+000130dc:	lw	s0, sp, 24
+000130e0:	lw	ra, sp, 28
+000130e4:	lw	s2, sp, 16
+000130e8:	lw	s3, sp, 12
+000130ec:	lw	s4, sp, 8
+000130f0:	addi	a0, s1, 0
+000130f4:	lw	s1, sp, 20
+000130f8:	addi	sp, sp, 32
+000130fc:	jal	zero, -1728
+00013100:	<_reclaim_reent>	lw	a5, gp, 56
+00013104:	beq	a5, a0, 276
+00013108:	lw	a1, a0, 76
+0001310c:	addi	sp, sp, -32
+00013110:	sw	sp, s1, 20
+00013114:	sw	sp, ra, 28
+00013118:	sw	sp, s0, 24
+0001311c:	sw	sp, s2, 16
+00013120:	sw	sp, s3, 12
+00013124:	addi	s1, a0, 0
+00013128:	beq	a1, zero, 64
+0001312c:	addi	s2, zero, 0
+00013130:	addi	s3, zero, 128
+00013134:	add	a5, a1, s2
+00013138:	lw	s0, a5, 0
+0001313c:	beq	s0, zero, 28
+00013140:	addi	a1, s0, 0
+00013144:	lw	s0, s0, 0
+00013148:	addi	a0, s1, 0
+0001314c:	jal	ra, -1808
+00013150:	bne	s0, zero, -16
+00013154:	lw	a1, s1, 76
+00013158:	addi	s2, s2, 4
+0001315c:	bne	s2, s3, -40
+00013160:	addi	a0, s1, 0
+00013164:	jal	ra, -1832
+00013168:	lw	a1, s1, 64
+0001316c:	beq	a1, zero, 12
+00013170:	addi	a0, s1, 0
+00013174:	jal	ra, -1848
+00013178:	lw	s0, s1, 328
+0001317c:	beq	s0, zero, 32
+00013180:	addi	s2, s1, 332
+00013184:	beq	s0, s2, 24
+00013188:	addi	a1, s0, 0
+0001318c:	lw	s0, s0, 0
+00013190:	addi	a0, s1, 0
+00013194:	jal	ra, -1880
+00013198:	bne	s2, s0, -16
+0001319c:	lw	a1, s1, 84
+000131a0:	beq	a1, zero, 12
+000131a4:	addi	a0, s1, 0
+000131a8:	jal	ra, -1900
+000131ac:	lw	a5, s1, 56
+000131b0:	beq	a5, zero, 76
+000131b4:	lw	a5, s1, 60
+000131b8:	addi	a0, s1, 0
+000131bc:	jalr	ra, a5, 0
+000131c0:	lw	s0, s1, 736
+000131c4:	beq	s0, zero, 56
+000131c8:	lw	a1, s0, 0
+000131cc:	beq	a1, zero, 12
+000131d0:	addi	a0, s1, 0
+000131d4:	jal	ra, -360
+000131d8:	addi	a1, s0, 0
+000131dc:	lw	s0, sp, 24
+000131e0:	lw	ra, sp, 28
+000131e4:	lw	s2, sp, 16
+000131e8:	lw	s3, sp, 12
+000131ec:	addi	a0, s1, 0
+000131f0:	lw	s1, sp, 20
+000131f4:	addi	sp, sp, 32
+000131f8:	jal	zero, -1980
+000131fc:	lw	ra, sp, 28
+00013200:	lw	s0, sp, 24
+00013204:	lw	s1, sp, 20
+00013208:	lw	s2, sp, 16
+0001320c:	lw	s3, sp, 12
+00013210:	addi	sp, sp, 32
+00013214:	jalr	zero, ra, 0
+00013218:	jalr	zero, ra, 0
+0001321c:	<_fstat_r>	addi	sp, sp, -16
+00013220:	addi	a4, a1, 0
+00013224:	sw	sp, s0, 8
+00013228:	sw	sp, s1, 4
+0001322c:	addi	s0, a0, 0
+00013230:	addi	a1, a2, 0
+00013234:	addi	a0, a4, 0
+00013238:	sw	sp, ra, 12
+0001323c:	sw	gp, zero, 80
+00013240:	jal	ra, 312
+00013244:	addi	a5, zero, -1
+00013248:	beq	a0, a5, 24
+0001324c:	lw	ra, sp, 12
+00013250:	lw	s0, sp, 8
+00013254:	lw	s1, sp, 4
+00013258:	addi	sp, sp, 16
+0001325c:	jalr	zero, ra, 0
+00013260:	lw	a5, gp, 80
+00013264:	beq	a5, zero, -24
+00013268:	lw	ra, sp, 12
+0001326c:	sw	s0, a5, 0
+00013270:	lw	s0, sp, 8
+00013274:	lw	s1, sp, 4
+00013278:	addi	sp, sp, 16
+0001327c:	jalr	zero, ra, 0
+00013280:	<_isatty_r>	addi	sp, sp, -16
+00013284:	sw	sp, s0, 8
+00013288:	sw	sp, s1, 4
+0001328c:	addi	s0, a0, 0
+00013290:	addi	a0, a1, 0
+00013294:	sw	sp, ra, 12
+00013298:	sw	gp, zero, 80
+0001329c:	jal	ra, 332
+000132a0:	addi	a5, zero, -1
+000132a4:	beq	a0, a5, 24
+000132a8:	lw	ra, sp, 12
+000132ac:	lw	s0, sp, 8
+000132b0:	lw	s1, sp, 4
+000132b4:	addi	sp, sp, 16
+000132b8:	jalr	zero, ra, 0
+000132bc:	lw	a5, gp, 80
+000132c0:	beq	a5, zero, -24
+000132c4:	lw	ra, sp, 12
+000132c8:	sw	s0, a5, 0
+000132cc:	lw	s0, sp, 8
+000132d0:	lw	s1, sp, 4
+000132d4:	addi	sp, sp, 16
+000132d8:	jalr	zero, ra, 0
+000132dc:	<_close>	addi	sp, sp, -16
+000132e0:	sw	sp, ra, 12
+000132e4:	sw	sp, s0, 8
+000132e8:	addi	a1, zero, 0
+000132ec:	addi	a2, zero, 0
+000132f0:	addi	a3, zero, 0
+000132f4:	addi	a4, zero, 0
+000132f8:	addi	a5, zero, 0
+000132fc:	addi	a7, zero, 57
+00013300:	ecall	
+00013304:	addi	s0, a0, 0
+00013308:	blt	a0, zero, 24
+0001330c:	lw	ra, sp, 12
+00013310:	addi	a0, s0, 0
+00013314:	lw	s0, sp, 8
+00013318:	addi	sp, sp, 16
+0001331c:	jalr	zero, ra, 0
+00013320:	sub	s0, zero, s0
+00013324:	jal	ra, 820
+00013328:	sw	a0, s0, 0
+0001332c:	addi	s0, zero, -1
+00013330:	jal	zero, -36
+00013334:	<_exit>	addi	a1, zero, 0
+00013338:	addi	a2, zero, 0
+0001333c:	addi	a3, zero, 0
+00013340:	addi	a4, zero, 0
+00013344:	addi	a5, zero, 0
+00013348:	addi	a7, zero, 93
+0001334c:	ecall	
+00013350:	blt	a0, zero, 8
+00013354:	jal	zero, 0
+00013358:	addi	sp, sp, -16
+0001335c:	sw	sp, s0, 8
+00013360:	addi	s0, a0, 0
+00013364:	sw	sp, ra, 12
+00013368:	sub	s0, zero, s0
+0001336c:	jal	ra, 748
+00013370:	sw	a0, s0, 0
+00013374:	jal	zero, 0
+00013378:	<_fstat>	addi	sp, sp, -144
+0001337c:	sw	sp, s1, 132
+00013380:	sw	sp, ra, 140
+00013384:	addi	s1, a1, 0
+00013388:	sw	sp, s0, 136
+0001338c:	addi	a1, sp, 0
+00013390:	addi	a2, zero, 0
+00013394:	addi	a3, zero, 0
+00013398:	addi	a4, zero, 0
+0001339c:	addi	a5, zero, 0
+000133a0:	addi	a7, zero, 80
+000133a4:	ecall	
+000133a8:	addi	s0, a0, 0
+000133ac:	blt	a0, zero, 40
+000133b0:	addi	a0, s1, 0
+000133b4:	addi	a1, sp, 0
+000133b8:	jal	ra, 508
+000133bc:	lw	ra, sp, 140
+000133c0:	addi	a0, s0, 0
+000133c4:	lw	s0, sp, 136
+000133c8:	lw	s1, sp, 132
+000133cc:	addi	sp, sp, 144
+000133d0:	jalr	zero, ra, 0
+000133d4:	sub	s0, zero, s0
+000133d8:	jal	ra, 640
+000133dc:	sw	a0, s0, 0
+000133e0:	addi	s0, zero, -1
+000133e4:	jal	zero, -52
+000133e8:	<_isatty>	addi	sp, sp, -112
+000133ec:	addi	a1, sp, 8
+000133f0:	sw	sp, ra, 108
+000133f4:	jal	ra, -124
+000133f8:	addi	a5, zero, -1
+000133fc:	beq	a0, a5, 28
+00013400:	lw	a0, sp, 12
+00013404:	lw	ra, sp, 108
+00013408:	srli	a0, a0, a3
+0001340c:	andi	a0, a0, 1
+00013410:	addi	sp, sp, 112
+00013414:	jalr	zero, ra, 0
+00013418:	lw	ra, sp, 108
+0001341c:	addi	a0, zero, 0
+00013420:	addi	sp, sp, 112
+00013424:	jalr	zero, ra, 0
+00013428:	<_lseek>	addi	sp, sp, -16
+0001342c:	sw	sp, ra, 12
+00013430:	sw	sp, s0, 8
+00013434:	addi	a3, zero, 0
+00013438:	addi	a4, zero, 0
+0001343c:	addi	a5, zero, 0
+00013440:	addi	a7, zero, 62
+00013444:	ecall	
+00013448:	addi	s0, a0, 0
+0001344c:	blt	a0, zero, 24
+00013450:	lw	ra, sp, 12
+00013454:	addi	a0, s0, 0
+00013458:	lw	s0, sp, 8
+0001345c:	addi	sp, sp, 16
+00013460:	jalr	zero, ra, 0
+00013464:	sub	s0, zero, s0
+00013468:	jal	ra, 496
+0001346c:	sw	a0, s0, 0
+00013470:	addi	s0, zero, -1
+00013474:	jal	zero, -36
+00013478:	<_read>	addi	sp, sp, -16
+0001347c:	sw	sp, ra, 12
+00013480:	sw	sp, s0, 8
+00013484:	addi	a3, zero, 0
+00013488:	addi	a4, zero, 0
+0001348c:	addi	a5, zero, 0
+00013490:	addi	a7, zero, 63
+00013494:	ecall	
+00013498:	addi	s0, a0, 0
+0001349c:	blt	a0, zero, 24
+000134a0:	lw	ra, sp, 12
+000134a4:	addi	a0, s0, 0
+000134a8:	lw	s0, sp, 8
+000134ac:	addi	sp, sp, 16
+000134b0:	jalr	zero, ra, 0
+000134b4:	sub	s0, zero, s0
+000134b8:	jal	ra, 416
+000134bc:	sw	a0, s0, 0
+000134c0:	addi	s0, zero, -1
+000134c4:	jal	zero, -36
+000134c8:	<_sbrk>	lw	a5, gp, 84
+000134cc:	addi	sp, sp, -16
+000134d0:	sw	sp, ra, 12
+000134d4:	addi	a6, a0, 0
+000134d8:	bne	a5, zero, 48
+000134dc:	addi	a0, zero, 0
+000134e0:	addi	a1, zero, 0
+000134e4:	addi	a2, zero, 0
+000134e8:	addi	a3, zero, 0
+000134ec:	addi	a4, zero, 0
+000134f0:	addi	a7, zero, 214
+000134f4:	ecall	
+000134f8:	addi	a4, zero, -1
+000134fc:	addi	a5, a0, 0
+00013500:	beq	a0, a4, 72
+00013504:	sw	gp, a0, 84
+00013508:	add	a0, a6, a5
+0001350c:	addi	a1, zero, 0
+00013510:	addi	a2, zero, 0
+00013514:	addi	a3, zero, 0
+00013518:	addi	a4, zero, 0
+0001351c:	addi	a5, zero, 0
+00013520:	addi	a7, zero, 214
+00013524:	ecall	
+00013528:	lw	a5, gp, 84
+0001352c:	add	a6, a6, a5
+00013530:	bne	a0, a6, 24
+00013534:	lw	ra, sp, 12
+00013538:	sw	gp, a0, 84
+0001353c:	addi	a0, a5, 0
+00013540:	addi	sp, sp, 16
+00013544:	jalr	zero, ra, 0
+00013548:	jal	ra, 272
+0001354c:	lw	ra, sp, 12
+00013550:	addi	a5, zero, 12
+00013554:	sw	a0, a5, 0
+00013558:	addi	a0, zero, -1
+0001355c:	addi	sp, sp, 16
+00013560:	jalr	zero, ra, 0
+00013564:	<_write>	addi	sp, sp, -16
+00013568:	sw	sp, ra, 12
+0001356c:	sw	sp, s0, 8
+00013570:	addi	a3, zero, 0
+00013574:	addi	a4, zero, 0
+00013578:	addi	a5, zero, 0
+0001357c:	addi	a7, zero, 64
+00013580:	ecall	
+00013584:	addi	s0, a0, 0
+00013588:	blt	a0, zero, 24
+0001358c:	lw	ra, sp, 12
+00013590:	addi	a0, s0, 0
+00013594:	lw	s0, sp, 8
+00013598:	addi	sp, sp, 16
+0001359c:	jalr	zero, ra, 0
+000135a0:	sub	s0, zero, s0
+000135a4:	jal	ra, 180
+000135a8:	sw	a0, s0, 0
+000135ac:	addi	s0, zero, -1
+000135b0:	jal	zero, -36
+000135b4:	<_conv_stat>	addi	sp, sp, -16
+000135b8:	lw	t2, a1, 20
+000135bc:	lw	t0, a1, 24
+000135c0:	lw	t6, a1, 28
+000135c4:	lw	t5, a1, 32
+000135c8:	lw	t4, a1, 48
+000135cc:	lw	t3, a1, 64
+000135d0:	lw	t1, a1, 56
+000135d4:	lw	a6, a1, 72
+000135d8:	lw	a7, a1, 76
+000135dc:	lw	a2, a1, 88
+000135e0:	sw	sp, s0, 12
+000135e4:	sw	sp, s1, 8
+000135e8:	lw	s0, a1, 16
+000135ec:	lw	s1, a1, 8
+000135f0:	sw	sp, s2, 4
+000135f4:	lw	s2, a1, 0
+000135f8:	lw	a3, a1, 92
+000135fc:	lw	a4, a1, 104
+00013600:	lw	a5, a1, 108
+00013604:	sh	a0, s2, 0
+00013608:	sh	a0, s1, 2
+0001360c:	sw	a0, s0, 4
+00013610:	sh	a0, t2, 8
+00013614:	sh	a0, t0, 10
+00013618:	sh	a0, t6, 12
+0001361c:	sh	a0, t5, 14
+00013620:	sw	a0, t4, 16
+00013624:	sw	a0, t3, 76
+00013628:	sw	a0, t1, 72
+0001362c:	sw	a0, a6, 24
+00013630:	sw	a0, a7, 28
+00013634:	sw	a0, a2, 40
+00013638:	sw	a0, a3, 44
+0001363c:	lw	s0, sp, 12
+00013640:	sw	a0, a4, 56
+00013644:	sw	a0, a5, 60
+00013648:	lw	s1, sp, 8
+0001364c:	lw	s2, sp, 4
+00013650:	addi	sp, sp, 16
+00013654:	jalr	zero, ra, 0
+00013658:	<__errno>	lw	a0, gp, 56
+0001365c:	jalr	zero, ra, 0
