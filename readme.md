@@ -2,7 +2,7 @@
 
 ##### Less pretty analogue of `riscv64-unknown-elf-objdump -d `
 
-Input file – RISCV 32-bit little endian ELF file
+Input file – RISCV 32-bit little endian ELF
 
 Output file – assembly dump
 
