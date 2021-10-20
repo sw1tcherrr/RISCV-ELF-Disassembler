@@ -22,8 +22,7 @@ No `output_file` means printing to `stdout`
 
 There is a report (in Russian) with
 
-+ RISCV ISA description
-
+- RISCV ISA description
 - ELF file structure description
 - algorithm description
 
